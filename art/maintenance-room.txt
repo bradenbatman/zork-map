@@ -1,0 +1,7 @@
+   ,-----------------------------------.
+   | (blue) (yellow) (brown) (red)      |
+   |   o       o        o      o        |
+   |                                    |
+   | [chests]  wrench  screwdriver  tube|
+   '------------------------------------'
+    doorways west and south

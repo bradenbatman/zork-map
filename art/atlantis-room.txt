@@ -1,0 +1,8 @@
+     ,----------------------------.
+    /  an ancient room, long under  \
+   /   water, now stone and silence  \
+  |     _|_|_|_                        |
+  |     \\|||//   crystal trident      |
+  |       |||     (taken)              |
+  '------------------------------------'
+   staircase up ^        exit south v

@@ -1,0 +1,6 @@
+   ,-----------------------------------.
+   |  PRIVATE  |             |  PRIVATE  |
+   |  (north)  |   desk      |  (east)   |
+   |     ^     | brochures   |     >     |
+   |___________|_ matchbook _|___________|
+              path south, over the dam

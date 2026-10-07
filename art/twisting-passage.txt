@@ -1,0 +1,7 @@
+          __
+     ___ /  \____
+    /   \/  __   _\    winding,
+    \__   \_/  \_/ |   twisting
+       \___________/
+   exits east and north
+   (north loops to the mirror room)

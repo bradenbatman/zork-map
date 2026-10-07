@@ -1,0 +1,7 @@
+   ||                              ||
+   ||     far wall, far below      ||
+   ||    ~~ ~~ water roars ~~ ~~   ||
+   ||     /\      /\      /\       ||
+   ||    /  \____/  \____/  \      ||
+   =====edge====================>  east
+   stairway down       NW and SW passages

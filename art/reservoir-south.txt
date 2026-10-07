@@ -1,0 +1,6 @@
+   ~ ~ ~ the lake to the north is draining ~ ~ ~
+   ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+   _____________________________________________
+   west <=== path along the stream ===> east
+
+   SW: steep path by the chasm     SE: canyon path

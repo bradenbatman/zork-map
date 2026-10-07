@@ -1,0 +1,8 @@
+   ______________________     ______
+  |  [ trophy  case ]    |    |XXXXXX|
+  |  ____________________|    |XXXXXX|  nailed
+  |                       |   |XXXXXX|  door
+  |     ,-------------.   |   '------'
+  |    /  oriental rug  \  |
+  |   /__________________\ |    doorway >
+  |__(_ trap door beneath _)___________

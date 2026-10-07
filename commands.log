@@ -1,0 +1,594 @@
+2026-09-29T10:27:00-04:00	I would like to play Zork. Please start a new game. (site reply: previous save deleted, fresh start)
+2026-09-29T10:28:00-04:00	open mailbox. take leaflet. read leaflet. go south. go east. open window
+2026-09-29T10:32:07-05:00	look
+2026-09-29T10:32:33-05:00	west. take sack. take bottle. up. take rope. take knife
+2026-09-29T10:32:55-05:00	down. west. take lamp. take sword. turn on lamp
+2026-09-29T10:33:12-05:00	east. up. take rope. take knife. down. west
+2026-09-29T10:39:24-05:00	score. move rug. open trap door. down. look
+2026-09-29T10:43:42-05:00	move rug. open trap door. down. look
+2026-09-29T10:44:22-05:00	south. east. take painting. west. north
+2026-09-29T10:46:24-05:00	north. attack troll with sword. attack troll with sword
+2026-09-29T10:48:15-05:00	score
+2026-09-29T10:48:30-05:00	east. east
+2026-09-29T10:48:54-05:00	east. west. southeast. northwest
+2026-09-29T10:49:28-05:00	echo. take bar. inventory
+2026-09-29T10:49:43-05:00	take bar. inventory
+2026-09-29T10:50:07-05:00	drop knife. drop bottle. take bar. inventory
+2026-09-29T10:51:06-05:00	east. west. up. down
+2026-09-29T10:51:19-05:00	up. east. north
+2026-09-29T10:51:40-05:00	take matchbook. north. take wrench. take screwdriver
+2026-09-29T11:06:19-05:00	drop bar. take wrench. take screwdriver. take tube. inventory
+2026-09-29T11:06:36-05:00	push yellow button. south. south. turn bolt with wrench
+2026-09-29T11:06:54-05:00	down. up. south
+2026-09-29T11:07:13-05:00	east. west
+2026-09-29T11:07:28-05:00	wait. wait. wait. north
+2026-09-29T11:07:43-05:00	drop wrench. drop screwdriver. drop leaflet. take trunk
+2026-09-29T11:08:06-05:00	drop rope. drop sack. take trunk. inventory
+2026-09-29T11:08:31-05:00	look. score
+2026-09-29T11:09:55-05:00	take rope. take sack. north
+2026-09-29T11:10:08-05:00	take pump. north
+2026-09-29T11:10:25-05:00	take trident. up
+2026-09-29T11:10:36-05:00	north
+2026-09-29T11:10:55-05:00	east. west. west. east
+2026-09-29T11:11:10-05:00	look
+2026-09-29T11:11:36-05:00	north. west
+2026-09-29T11:11:48-05:00	north
+2026-09-29T11:12:01-05:00	look
+2026-09-29T11:12:28-05:00	north
+2026-09-29T11:12:39-05:00	west
+2026-09-29T11:14:32-05:00	down
+2026-09-29T11:14:43-05:00	south. east. north
+2026-09-29T11:14:55-05:00	up
+2026-09-29T11:15:09-05:00	drop rope. drop sack. drop pump. up
+2026-09-29T11:15:26-05:00	inventory. score
+2026-09-29T11:16:14-05:00	east. east
+2026-09-29T11:16:27-05:00	east. north
+2026-09-29T11:16:38-05:00	down. down
+2026-09-29T11:16:48-05:00	north
+2026-09-29T11:17:41-05:00	southwest. up. up
+2026-09-29T11:17:51-05:00	northwest. west. north
+2026-09-29T11:18:01-05:00	north. up
+2026-09-29T11:18:13-05:00	take egg. down. south. east
+2026-09-29T11:18:27-05:00	west. west. open case. put egg in case
+2026-09-29T11:18:39-05:00	score. look in case
+2026-09-29T11:18:55-05:00	score
+2026-09-29T13:13:16-05:00	look
+2026-09-29T13:13:31-05:00	open trap door. down. south. east
+2026-09-29T13:13:41-05:00	take painting. north. drop matchbook. up
+2026-09-29T13:13:55-05:00	look
+2026-09-29T13:14:15-05:00	north. take sack. take rope. take pump
+2026-09-29T13:14:34-05:00	south. west. north. north. east. east. east
+2026-09-29T13:14:49-05:00	take knife. take bottle. inventory
+2026-09-29T13:15:14-05:00	west. west. west
+2026-09-29T13:15:30-05:00	west. south. east. up
+2026-09-29T13:15:43-05:00	take key. take bag. southwest
+2026-09-29T13:15:53-05:00	east. south. southeast
+2026-09-29T13:16:13-05:00	open sack. give lunch to cyclops. give water to cyclops
+2026-09-29T13:16:26-05:00	look
+2026-09-29T13:16:48-05:00	open sack
+2026-09-29T13:17:03-05:00	give lunch to cyclops
+2026-09-29T13:17:13-05:00	give water to cyclops
+2026-09-29T13:17:43-05:00	ulysses
+2026-09-29T13:23:23-05:00	diagnose
+2026-09-29T13:23:55-05:00	up
+2026-09-29T13:24:09-05:00	give coins to thief
+2026-09-29T13:24:22-05:00	kill thief with knife. g. g
+2026-09-29T13:24:34-05:00	kill thief with knife
+2026-09-29T13:25:13-05:00	down. wake cyclops. ulysses
+2026-09-29T13:25:28-05:00	examine cyclops
+2026-09-29T13:25:41-05:00	wake cyclops
+2026-09-29T13:25:51-05:00	ulysses
+2026-09-29T13:26:14-05:00	drop rope. drop pump. drop bottle. drop knife. up
+2026-09-29T13:26:25-05:00	drop knife. up
+2026-09-29T13:26:40-05:00	take trunk. take painting. take trident. take chalice
+2026-09-29T13:26:52-05:00	down. east. east
+2026-09-29T13:27:05-05:00	put trunk in case. put painting in case. put chalice in case
+2026-09-29T13:27:16-05:00	score
+2026-09-29T13:27:30-05:00	west. west. up
+2026-09-29T13:27:44-05:00	take trident. take bar. take coins. take sword
+2026-09-29T13:27:56-05:00	down. east. east
+2026-09-29T13:28:05-05:00	put trident in case. put bar in case. put coins in case
+2026-09-29T13:28:16-05:00	score
+2026-09-29T13:31:21-05:00	west. west. take rope. take pump
+2026-09-29T13:31:37-05:00	east. east. open trap door. down
+2026-09-29T13:31:43-05:00	north. east. east
+2026-09-29T13:31:54-05:00	southeast
+2026-09-29T13:32:05-05:00	east
+2026-09-29T13:32:15-05:00	tie rope to railing. down
+2026-09-29T13:32:27-05:00	take torch. down
+2026-09-29T13:32:40-05:00	take bell. south
+2026-09-29T13:33:19-05:00	take candles. take book
+2026-09-29T13:33:35-05:00	down
+2026-09-29T13:33:50-05:00	down
+2026-09-29T13:34:04-05:00	ring bell
+2026-09-29T13:34:25-05:00	take candles. light match. light candles with match. read book
+2026-09-29T13:34:37-05:00	south. take skull
+2026-09-29T13:34:55-05:00	drop book. drop key. drop candles. take skull
+2026-09-29T13:35:08-05:00	north. up
+2026-09-29T13:35:21-05:00	north
+2026-09-29T13:35:40-05:00	north
+2026-09-29T13:35:54-05:00	north
+2026-09-29T13:36:20-05:00	drop pump. drop sack. drop matchbook. southeast. east
+2026-09-29T13:36:48-05:00	inventory
+2026-09-29T13:37:04-05:00	look
+2026-09-29T13:37:18-05:00	south
+2026-09-29T13:37:38-05:00	drop pump
+2026-09-29T13:37:53-05:00	drop sack. drop matchbook
+2026-09-29T13:38:04-05:00	southeast
+2026-09-29T13:38:24-05:00	east. down. down. down
+2026-09-29T13:38:36-05:00	take coffin. open coffin
+2026-09-29T13:39:17-05:00	take sceptre. turn off lantern
+2026-09-29T13:39:30-05:00	west. south. pray
+2026-09-29T13:39:42-05:00	east
+2026-09-29T13:40:05-05:00	south. east. east. east
+2026-09-29T13:40:22-05:00	down. down. north. wave sceptre
+2026-09-29T13:40:33-05:00	east
+2026-09-29T13:40:45-05:00	west. take pot
+2026-09-29T13:40:59-05:00	southwest. up. up. northwest
+2026-09-29T13:41:04-05:00	west. west. west
+2026-09-29T13:41:18-05:00	put skull in case. put torch in case. put sceptre in case. put pot in case
+2026-09-29T13:41:30-05:00	score
+2026-09-29T13:42:04-05:00	take egg. take torch. open trap door. down
+2026-09-29T13:42:19-05:00	north. east. east. take pump. take sack
+2026-09-29T13:42:33-05:00	take matchbook. east. up. east
+2026-09-29T13:42:38-05:00	west. north
+2026-09-29T13:42:51-05:00	take screwdriver. open egg with screwdriver
+2026-09-29T13:43:31-05:00	save
+2026-09-29T13:43:45-05:00	south. east. down
+2026-09-29T13:43:55-05:00	inflate plastic with pump
+2026-09-29T13:44:07-05:00	read label
+2026-09-29T13:44:18-05:00	get in boat
+2026-09-29T13:44:28-05:00	launch
+2026-09-29T13:44:40-05:00	wait. wait. wait
+2026-09-29T13:44:52-05:00	wait. wait
+2026-09-29T13:45:03-05:00	wait. wait
+2026-09-29T13:45:18-05:00	wait. wait
+2026-09-29T13:45:29-05:00	wait. wait
+2026-09-29T13:45:43-05:00	take buoy. east
+2026-09-29T13:45:55-05:00	inventory
+2026-09-29T13:46:12-05:00	open buoy
+2026-09-29T13:46:24-05:00	take emerald. get out of boat
+2026-09-29T13:46:51-05:00	drop buoy. drop label. drop egg. take emerald
+2026-09-29T13:47:06-05:00	inventory
+2026-09-29T13:47:23-05:00	drop label. drop egg. drop buoy
+2026-09-29T13:47:34-05:00	take emerald
+2026-09-29T13:47:45-05:00	north
+2026-09-29T13:48:01-05:00	drop pump. drop matchbook. take shovel. northeast
+2026-09-29T13:48:16-05:00	dig sand with shovel. g. g. g
+2026-09-29T13:48:27-05:00	take scarab
+2026-09-29T13:48:50-05:00	southwest. south. south
+2026-09-29T13:49:02-05:00	west. west
+2026-09-29T13:49:32-05:00	southwest. up. up. northwest
+2026-09-29T13:49:37-05:00	west. west. west
+2026-09-29T13:49:52-05:00	put emerald in case. put scarab in case
+2026-09-29T13:49:58-05:00	score
+2026-09-29T13:50:21-05:00	drop shovel. down. north. east. east
+2026-09-29T13:50:29-05:00	east. up. east. west. north
+2026-09-29T13:50:42-05:00	north. north. up. north
+2026-09-29T13:50:47-05:00	north. west. north
+2026-09-29T13:51:00-05:00	west
+2026-09-29T13:51:12-05:00	take garlic. north
+2026-09-29T13:51:23-05:00	take jade. east
+2026-09-29T13:51:39-05:00	north
+2026-09-29T13:51:52-05:00	turn on lantern. drop torch. down
+2026-09-29T13:52:04-05:00	take bracelet. east
+2026-09-29T13:52:19-05:00	northeast. southeast. southwest. down
+2026-09-29T13:52:31-05:00	down. south
+2026-09-29T13:52:43-05:00	take coal. north. west
+2026-09-29T13:52:54-05:00	west
+2026-09-29T13:53:10-05:00	drop jade. drop bracelet. drop sack. drop garlic. west
+2026-09-29T13:53:23-05:00	inventory
+2026-09-29T13:53:41-05:00	east. up. up
+2026-09-29T13:53:57-05:00	northeast. northwest. southwest. west
+2026-09-29T13:54:09-05:00	look
+2026-09-29T13:54:27-05:00	drop coal. south
+2026-09-29T13:54:38-05:00	north
+2026-09-29T13:54:43-05:00	look
+2026-09-29T13:55:00-05:00	west
+2026-09-29T13:55:12-05:00	east
+2026-09-29T13:55:17-05:00	northwest
+2026-09-29T13:55:59-05:00	west. south. take coal
+2026-09-29T13:56:16-05:00	south. north
+2026-09-29T13:56:32-05:00	east. northeast. southeast. southwest
+2026-09-29T13:56:37-05:00	take coal
+2026-09-29T13:56:54-05:00	north. east. south. north
+2026-09-29T13:56:59-05:00	up. south
+2026-09-29T13:57:20-05:00	put coal in basket. put screwdriver in basket
+2026-09-29T13:57:31-05:00	north. take torch. south. put torch in basket
+2026-09-29T13:57:42-05:00	lower basket
+2026-09-29T13:57:58-05:00	north. down. east. northeast
+2026-09-29T13:58:06-05:00	southeast. southwest. down. down
+2026-09-29T13:58:11-05:00	west
+2026-09-29T13:58:23-05:00	west
+2026-09-29T13:58:36-05:00	turn off lantern. drop lantern. west
+2026-09-29T13:58:50-05:00	take coal. take torch. take screwdriver. look
+2026-09-29T13:59:02-05:00	south
+2026-09-29T13:59:16-05:00	open lid. put coal in machine. close lid. turn switch with screwdriver
+2026-09-29T13:59:27-05:00	open lid. take diamond
+2026-09-29T14:01:19-05:00	restart
+2026-09-29T14:01:35-05:00	north. north. up. take egg. down
+2026-09-29T14:01:50-05:00	south. east. open window. west. take sack
+2026-09-29T14:02:06-05:00	west. take lamp. take sword. turn on lamp
+2026-09-29T14:02:12-05:00	east. up. take rope. take knife
+2026-09-29T14:02:27-05:00	inventory
+2026-09-29T14:02:42-05:00	east. up. take rope. take knife
+2026-09-29T14:02:56-05:00	down. west. move rug. open trap door
+2026-09-29T14:03:14-05:00	down. north. kill troll with sword. g
+2026-09-29T14:03:26-05:00	kill troll with sword. g
+2026-09-29T14:03:38-05:00	kill troll with sword
+2026-09-29T14:03:49-05:00	kill troll with sword
+2026-09-29T14:04:06-05:00	south. south. east. take painting
+2026-09-29T14:04:19-05:00	drop sword. take painting
+2026-09-29T14:04:34-05:00	west. north. north. west
+2026-09-29T14:04:43-05:00	south. east. up. take bag
+2026-09-29T14:04:59-05:00	southwest. east. south. southeast
+2026-09-29T14:05:10-05:00	ulysses
+2026-09-29T14:05:22-05:00	up
+2026-09-29T14:05:34-05:00	give egg to thief
+2026-09-29T14:05:46-05:00	kill thief with knife. g. g
+2026-09-29T14:05:59-05:00	inventory
+2026-09-29T14:06:04-05:00	score
+2026-09-29T14:06:29-05:00	east. south. east. west. west
+2026-09-29T14:06:50-05:00	take lantern. east. east. east
+2026-09-29T14:07:05-05:00	east. west. west. north
+2026-09-29T14:07:38-05:00	south. take knife. up
+2026-09-29T14:07:49-05:00	down. south. west
+2026-09-29T14:08:03-05:00	take sack. south. east
+2026-09-29T14:08:14-05:00	south. take rope
+2026-09-29T14:08:28-05:00	west. west
+2026-09-29T14:08:42-05:00	west. south. east
+2026-09-29T14:08:54-05:00	look
+2026-09-29T14:09:08-05:00	south
+2026-09-29T14:09:14-05:00	north
+2026-09-29T14:09:41-05:00	south. south. east. east
+2026-09-29T14:09:49-05:00	east. down. down. north
+2026-09-29T14:10:01-05:00	look
+2026-09-29T14:10:15-05:00	west
+2026-09-29T14:10:20-05:00	west
+2026-09-29T14:10:32-05:00	east. south. east
+2026-09-29T14:10:49-05:00	east. east. down. down. north
+2026-09-29T14:11:32-05:00	turn off lantern. southwest. up. up. northwest
+2026-09-29T14:11:37-05:00	west. west. west
+2026-09-29T14:11:55-05:00	open trap door. down. turn on lantern
+2026-09-29T14:12:00-05:00	north. east. east
+2026-09-29T14:12:13-05:00	turn on lantern
+2026-09-29T14:12:31-05:00	east. east. drop rope. drop knife
+2026-09-29T14:12:44-05:00	drop sack. east. echo
+2026-09-29T14:12:56-05:00	echo
+2026-09-29T14:13:58-05:00	up. east. north. take matchbook. north
+2026-09-29T14:14:06-05:00	take wrench. take screwdriver. push yellow button
+2026-09-29T14:14:18-05:00	south. south. turn bolt with wrench
+2026-09-29T14:14:30-05:00	look
+2026-09-29T14:14:51-05:00	look
+2026-09-29T14:15:03-05:00	south. south
+2026-09-29T14:15:09-05:00	turn bolt with wrench
+2026-09-29T14:15:26-05:00	west. wait. wait. wait
+2026-09-29T14:15:44-05:00	drop wrench. north. take trunk. north. take pump
+2026-09-29T14:15:55-05:00	north. take trident
+2026-09-29T14:16:06-05:00	inventory
+2026-09-29T14:16:28-05:00	up. north. north. west
+2026-09-29T14:16:33-05:00	down. north
+2026-09-29T14:16:49-05:00	south
+2026-09-29T14:17:01-05:00	inventory
+2026-09-29T14:17:06-05:00	diagnose
+2026-09-29T14:28:27-05:00	east. north. drop pump. drop screwdriver
+2026-09-29T14:30:01-05:00	look
+2026-09-29T14:30:20-05:00	drop matchbook. drop trident. up
+2026-09-29T14:30:37-05:00	west. open case. put trunk in case
+2026-09-29T14:30:48-05:00	score
+2026-09-29T14:31:12-05:00	wait. wait. wait. wait. wait. wait. wait. wait. wait. wait
+2026-09-29T14:31:28-05:00	diagnose
+2026-09-29T14:31:45-05:00	wait. wait. wait. wait. wait. wait. wait. wait. wait. wait
+2026-09-29T14:31:55-05:00	wait. wait. wait. wait. wait. wait. wait. wait. wait. wait
+2026-09-29T14:32:10-05:00	wait. wait. wait. wait. wait. wait. wait. wait. wait. wait
+2026-09-29T14:32:17-05:00	diagnose
+2026-09-29T14:32:54-05:00	turn on lantern. open trap door. down
+2026-09-29T14:33:09-05:00	south. east. north. take trident
+2026-09-29T14:33:24-05:00	take matchbook. take screwdriver. take pump
+2026-09-29T14:33:49-05:00	south. west. north
+2026-09-29T14:34:02-05:00	north. east. east
+2026-09-29T14:34:18-05:00	take rope. drop screwdriver. southeast. east
+2026-09-29T14:34:34-05:00	tie rope to railing. down. take torch
+2026-09-29T14:34:47-05:00	turn off lantern. down. take bell
+2026-09-29T14:34:57-05:00	south. take candles. take book
+2026-09-29T14:35:10-05:00	down. down
+2026-09-29T14:35:17-05:00	ring bell
+2026-09-29T14:35:52-05:00	take candles. light match. light candles with match. read book
+2026-09-29T14:36:05-05:00	south. take skull
+2026-09-29T14:36:15-05:00	north. up. north. north
+2026-09-29T14:36:33-05:00	north. drop book. drop candles. drop lantern
+2026-09-29T14:36:49-05:00	southeast. east. down. down. down
+2026-09-29T14:37:02-05:00	take coffin
+2026-09-29T14:37:15-05:00	west. south. pray
+2026-09-29T14:37:31-05:00	east. south. east. east
+2026-09-29T14:37:40-05:00	east. down. down. north
+2026-09-29T14:37:52-05:00	open coffin. take sceptre. wave sceptre
+2026-09-29T14:38:05-05:00	take pot
+2026-09-29T14:38:27-05:00	southwest. up. up. northwest
+2026-09-29T14:38:33-05:00	west. west. west
+2026-09-29T14:38:50-05:00	put coffin in case. put skull in case. put sceptre in case. put torch in case
+2026-09-29T14:40:22-05:00	score
+2026-09-29T14:40:28-05:00	inventory
+2026-09-29T14:47:38-05:00	look
+2026-09-29T14:47:49-05:00	e. e. e
+2026-09-29T14:47:55-05:00	e. d. d
+2026-09-29T14:48:05-05:00	n. take pot
+2026-09-29T14:48:21-05:00	sw. u. u
+2026-09-29T14:48:27-05:00	w. w. w
+2026-09-29T14:48:33-05:00	w. take sceptre
+2026-09-29T14:48:46-05:00	look
+2026-09-29T14:49:01-05:00	e. look
+2026-09-29T14:49:13-05:00	s. e. w
+2026-09-29T14:49:23-05:00	w. take sceptre
+2026-09-29T14:49:35-05:00	e. e. e
+2026-09-29T14:49:41-05:00	e. d. d
+2026-09-29T14:49:47-05:00	n. wave sceptre
+2026-09-29T14:50:08-05:00	wave sceptre
+2026-09-29T14:50:20-05:00	look. i
+2026-09-29T14:50:26-05:00	score
+2026-09-29T14:50:43-05:00	take gold
+2026-09-29T14:50:49-05:00	examine rainbow
+2026-09-29T14:50:55-05:00	diagnose
+2026-09-29T14:52:17-05:00	sw. u. u. nw
+2026-09-29T14:52:23-05:00	w. w. w
+2026-09-29T14:52:29-05:00	put sceptre in case. score
+2026-09-29T14:53:25-05:00	take torch. open trap door. d
+2026-09-29T14:53:35-05:00	n. e. take knife
+2026-09-29T14:53:49-05:00	e. look
+2026-09-29T14:54:06-05:00	e
+2026-09-29T14:54:12-05:00	echo
+2026-09-29T14:54:24-05:00	take bar. w. w. w
+2026-09-29T14:54:33-05:00	s. s. e. n
+2026-09-29T14:54:44-05:00	i. u
+2026-09-29T14:54:58-05:00	drop matchbook. u
+2026-09-29T14:55:10-05:00	drop torch. u
+2026-09-29T14:55:22-05:00	i
+2026-09-29T14:55:36-05:00	drop bar. u
+2026-09-29T14:56:01-05:00	take bar. take torch. s. w
+2026-09-29T14:56:11-05:00	n. n. w. s
+2026-09-29T14:56:35-05:00	e. u. sw. e
+2026-09-29T14:56:45-05:00	s. se. e. e
+2026-09-29T14:56:59-05:00	put bar in case. put torch in case
+2026-09-29T14:57:05-05:00	score
+2026-09-29T14:57:15-05:00	score
+2026-09-29T14:57:47-05:00	open trap door. d. n. e
+2026-09-29T14:57:56-05:00	e. take lantern. take screwdriver
+2026-09-29T14:58:41-05:00	score
+2026-09-29T15:00:25-05:00	restart
+2026-09-29T15:00:50-05:00	n. n. up
+2026-09-29T15:00:55-05:00	take egg. down. s
+2026-09-29T15:01:08-05:00	e. open window. w
+2026-09-29T15:01:13-05:00	take sack. w. take lamp
+2026-09-29T15:01:24-05:00	take sword. turn on lamp. e
+2026-09-29T15:01:30-05:00	up. take rope. take knife
+2026-09-29T15:01:42-05:00	look
+2026-09-29T15:01:51-05:00	up. take rope
+2026-09-29T15:01:56-05:00	take knife. i
+2026-09-29T15:02:11-05:00	down. w. move rug
+2026-09-29T15:02:16-05:00	open trap door. d. n
+2026-09-29T15:02:26-05:00	kill troll with sword
+2026-09-29T15:02:35-05:00	kill troll with sword
+2026-09-29T15:02:44-05:00	kill troll with sword
+2026-09-29T15:02:53-05:00	kill troll with sword
+2026-09-29T15:03:02-05:00	score
+2026-09-29T15:03:07-05:00	diagnose
+2026-09-29T15:03:17-05:00	score
+2026-09-29T15:03:43-05:00	s. s. e
+2026-09-29T15:03:48-05:00	take painting
+2026-09-29T15:03:59-05:00	drop sword. take painting
+2026-09-29T15:04:09-05:00	w. n. n
+2026-09-29T15:04:14-05:00	w. s. e
+2026-09-29T15:04:24-05:00	u. take key. take bag
+2026-09-29T15:04:36-05:00	i
+2026-09-29T15:04:53-05:00	sw. e. s. se
+2026-09-29T15:05:16-05:00	ulysses
+2026-09-29T15:05:29-05:00	e. e. put bag in case
+2026-09-29T15:05:34-05:00	score
+2026-09-29T15:05:46-05:00	put leather bag in case. drop sack
+2026-09-29T15:05:51-05:00	score
+2026-09-29T15:06:04-05:00	open case. put leather bag in case
+2026-09-29T15:06:10-05:00	score
+2026-09-29T15:07:20-05:00	open trap door. d. n
+2026-09-29T15:07:25-05:00	e. e. e
+2026-09-29T15:07:35-05:00	echo
+2026-09-29T15:07:41-05:00	take bar
+2026-09-29T15:07:51-05:00	u. e. n
+2026-09-29T15:07:56-05:00	take matchbook. n. take wrench
+2026-09-29T15:08:06-05:00	take screwdriver. push yellow button
+2026-09-29T15:08:17-05:00	s. s. turn bolt with wrench
+2026-09-29T15:08:33-05:00	look
+2026-09-29T15:08:43-05:00	s. s
+2026-09-29T15:08:48-05:00	turn bolt with wrench
+2026-09-29T15:09:00-05:00	wait. wait. wait. wait. wait
+2026-09-29T15:09:08-05:00	wait. wait. wait. wait
+2026-09-29T15:09:23-05:00	w. n. take trunk
+2026-09-29T15:09:52-05:00	drop wrench. drop key. drop knife
+2026-09-29T15:09:57-05:00	drop rope. drop screwdriver. take trunk
+2026-09-29T15:10:10-05:00	n. n. take trident
+2026-09-29T15:10:24-05:00	u. n. n. w
+2026-09-29T15:10:29-05:00	d. n. w
+2026-09-29T15:10:40-05:00	look
+2026-09-29T15:10:58-05:00	s. e. u
+2026-09-29T15:11:11-05:00	sw. e. s. se
+2026-09-29T15:11:17-05:00	e. e. i
+2026-09-29T15:11:29-05:00	put trident in case. put trunk in case. put bar in case
+2026-09-29T15:11:34-05:00	turn off lamp. score
+2026-09-29T15:12:30-05:00	turn on lamp. d. n
+2026-09-29T15:12:35-05:00	e. e. e
+2026-09-29T15:12:45-05:00	u. e. w
+2026-09-29T15:12:53-05:00	n. take rope. take knife
+2026-09-29T15:13:07-05:00	look
+2026-09-29T15:13:25-05:00	n. take rope. take knife
+2026-09-29T15:13:48-05:00	look
+2026-09-29T15:13:58-05:00	north
+2026-09-29T15:14:08-05:00	take rope. take knife
+2026-09-29T15:14:13-05:00	n. take pump
+2026-09-29T15:14:26-05:00	s. s. se
+2026-09-29T15:14:31-05:00	d. w. se
+2026-09-29T15:14:55-05:00	e. tie rope to railing
+2026-09-29T15:15:04-05:00	d. take torch
+2026-09-29T15:15:13-05:00	turn off lamp. d. take bell
+2026-09-29T15:15:21-05:00	s. take candles. take book
+2026-09-29T15:15:33-05:00	d. d
+2026-09-29T15:15:42-05:00	ring bell
+2026-09-29T15:15:55-05:00	take candles. light match. light candles with match. read book
+2026-09-29T15:16:05-05:00	s. take skull
+2026-09-29T15:16:13-05:00	n. u. n. n
+2026-09-29T15:16:22-05:00	n. i
+2026-09-29T15:16:36-05:00	drop candles. drop book. drop lantern
+2026-09-29T15:16:41-05:00	drop pump. drop knife
+2026-09-29T15:16:52-05:00	se. e. d. d. d
+2026-09-29T15:17:01-05:00	take coffin
+2026-09-29T15:17:07-05:00	w. s. pray
+2026-09-29T15:17:41-05:00	e. s. e
+2026-09-29T15:17:46-05:00	w. w
+2026-09-29T15:17:59-05:00	open coffin. take sceptre. put sceptre in case
+2026-09-29T15:18:07-05:00	put coffin in case. put skull in case. put torch in case
+2026-09-29T15:18:12-05:00	score
+2026-09-29T15:18:21-05:00	score
+2026-09-29T15:18:42-05:00	take sceptre. e. e. e
+2026-09-29T15:18:52-05:00	e. d. d. n
+2026-09-29T15:19:01-05:00	wave sceptre. take pot
+2026-09-29T15:19:15-05:00	sw. u. u. nw
+2026-09-29T15:19:20-05:00	w. w. w
+2026-09-29T15:19:28-05:00	put sceptre in case. put pot in case
+2026-09-29T15:19:33-05:00	score
+2026-09-29T15:19:43-05:00	score
+2026-09-29T15:19:48-05:00	i
+2026-09-29T15:20:26-05:00	take torch. open trap door. d
+2026-09-29T15:20:31-05:00	n. e. e
+2026-09-29T15:20:47-05:00	take pump. take lantern. e
+2026-09-29T15:20:53-05:00	u. e. d
+2026-09-29T15:21:05-05:00	look
+2026-09-29T15:21:10-05:00	i
+2026-09-29T15:21:27-05:00	e. u. e. d
+2026-09-29T15:21:38-05:00	inflate plastic with pump
+2026-09-29T15:21:48-05:00	drop pump. get in boat. launch
+2026-09-29T15:22:01-05:00	wait. wait. wait. wait
+2026-09-29T15:22:10-05:00	take buoy. e
+2026-09-29T15:22:19-05:00	get out. open buoy. take shovel
+2026-09-29T15:22:31-05:00	ne. dig sand with shovel. g. g
+2026-09-29T15:22:47-05:00	g
+2026-09-29T15:22:58-05:00	take scarab. drop shovel. sw
+2026-09-29T15:23:07-05:00	s. s. w. w
+2026-09-29T15:23:19-05:00	sw. u. u. nw
+2026-09-29T15:23:24-05:00	w. w. w
+2026-09-29T15:23:32-05:00	put emerald in case. put scarab in case. put torch in case
+2026-09-29T15:23:37-05:00	score
+2026-09-29T15:23:46-05:00	score
+2026-09-29T15:23:51-05:00	i
+2026-09-29T15:23:56-05:00	look
+2026-09-29T15:24:30-05:00	drop buoy. take torch. d
+2026-09-29T15:24:35-05:00	n. e. e
+2026-09-29T15:24:45-05:00	take knife. w. w
+2026-09-29T15:24:50-05:00	w. s. e
+2026-09-29T15:25:02-05:00	u. sw. e
+2026-09-29T15:25:07-05:00	s. se
+2026-09-29T15:25:22-05:00	e. e. take leather bag
+2026-09-29T15:25:27-05:00	w. w
+2026-09-29T15:25:33-05:00	diagnose
+2026-09-29T15:25:43-05:00	u
+2026-09-29T15:25:53-05:00	give leather bag to thief
+2026-09-29T15:26:02-05:00	kill thief with knife
+2026-09-29T15:26:12-05:00	diagnose
+2026-09-29T15:26:25-05:00	d. e. e
+2026-09-29T15:26:36-05:00	i
+2026-09-29T15:26:41-05:00	diagnose
+2026-09-29T15:27:15-05:00	wait. wait. wait. wait. wait. wait. wait. wait. wait. wait
+2026-09-29T15:27:21-05:00	diagnose
+2026-09-29T15:27:40-05:00	wait. wait. wait. wait. wait. wait. wait. wait. wait. wait
+2026-09-29T15:27:49-05:00	wait. wait. wait. wait. wait. wait. wait. wait. wait. wait
+2026-09-29T15:27:57-05:00	wait. wait. wait. wait. wait. wait. wait. wait. wait. wait
+2026-09-29T15:28:02-05:00	diagnose
+2026-09-29T15:30:23-05:00	light match. d. n
+2026-09-29T15:30:46-05:00	light match. look
+2026-09-29T15:30:59-05:00	light match. e
+2026-09-29T15:31:09-05:00	light match. take lantern
+2026-09-29T15:31:14-05:00	turn on lamp
+2026-09-29T15:31:29-05:00	w. w. s
+2026-09-29T15:31:34-05:00	e. u. sw
+2026-09-29T15:31:44-05:00	e. s. se
+2026-09-29T15:31:55-05:00	u
+2026-09-29T15:32:05-05:00	kill thief with knife
+2026-09-29T15:32:15-05:00	kill thief with knife
+2026-09-29T15:32:25-05:00	kill thief with knife
+2026-09-29T15:32:36-05:00	kill thief with knife
+2026-09-29T15:32:46-05:00	kill thief with knife
+2026-09-29T15:33:03-05:00	drop knife. take chalice. take torch
+2026-09-29T15:33:09-05:00	take egg. take painting. take leather bag
+2026-09-29T15:33:22-05:00	take egg. take painting
+2026-09-29T15:33:27-05:00	take leather bag. i
+2026-09-29T15:33:38-05:00	turn off lamp. d. e
+2026-09-29T15:33:48-05:00	e. take canary from egg
+2026-09-29T15:34:02-05:00	put chalice in case. put painting in case. put leather bag in case
+2026-09-29T15:34:10-05:00	put egg in case. put canary in case. put torch in case
+2026-09-29T15:34:15-05:00	score
+2026-09-29T15:34:26-05:00	score
+2026-09-29T15:34:31-05:00	i
+2026-09-29T15:34:36-05:00	look
+2026-09-29T15:35:13-05:00	take canary. e. e
+2026-09-29T15:35:22-05:00	n. n. wind canary
+2026-09-29T15:35:32-05:00	take bauble
+2026-09-29T15:35:38-05:00	s. s. w
+2026-09-29T15:35:43-05:00	w. w
+2026-09-29T15:35:51-05:00	put bauble in case. put canary in case
+2026-09-29T15:36:01-05:00	score
+2026-09-29T15:36:07-05:00	i
+2026-09-29T15:36:25-05:00	e. n. e
+2026-09-29T15:36:34-05:00	w. w. put bauble in case
+2026-09-29T15:36:39-05:00	put canary in case
+2026-09-29T15:36:44-05:00	score
+2026-09-29T15:37:05-05:00	e. s. e
+2026-09-29T15:37:10-05:00	w. w
+2026-09-29T15:37:22-05:00	put bauble in case. put canary in case
+2026-09-29T15:37:27-05:00	score
+2026-09-29T15:38:06-05:00	take sack. take torch. d
+2026-09-29T15:38:11-05:00	n. e. e
+2026-09-29T15:38:22-05:00	e. u. nw
+2026-09-29T15:38:30-05:00	n. take screwdriver. n
+2026-09-29T15:38:40-05:00	n. u. n
+2026-09-29T15:38:45-05:00	n. w. n
+2026-09-29T15:38:58-05:00	w. take garlic. n
+2026-09-29T15:39:09-05:00	open sack. take garlic
+2026-09-29T15:39:14-05:00	n. take jade
+2026-09-29T15:39:26-05:00	e. n
+2026-09-29T15:39:31-05:00	turn on lamp. drop torch. d
+2026-09-29T15:39:43-05:00	take bracelet. e. ne
+2026-09-29T15:39:48-05:00	se. sw. d
+2026-09-29T15:40:04-05:00	d. s. take coal
+2026-09-29T15:40:16-05:00	n. u. u
+2026-09-29T15:40:21-05:00	n. e. s
+2026-09-29T15:40:31-05:00	n
+2026-09-29T15:40:48-05:00	u. take torch. s
+2026-09-29T15:40:56-05:00	put coal in basket. put screwdriver in basket. put torch in basket
+2026-09-29T15:41:08-05:00	drop sack. drop garlic. n
+2026-09-29T15:41:17-05:00	take torch. s. put torch in basket
+2026-09-29T15:41:27-05:00	lower basket
+2026-09-29T15:41:32-05:00	n. d. e
+2026-09-29T15:41:42-05:00	ne. se. sw
+2026-09-29T15:41:47-05:00	d. d. w
+2026-09-29T15:42:02-05:00	drop jade. drop bracelet. drop matchbook. drop lantern
+2026-09-29T15:42:07-05:00	w
+2026-09-29T15:42:23-05:00	take coal. take screwdriver. take torch. s
+2026-09-29T21:33:37-05:00	look
+2026-09-29T21:33:59-05:00	look
+2026-09-29T21:34:25-05:00	close lid. turn switch with screwdriver
+2026-09-29T21:34:56-05:00	open lid. take diamond
+2026-09-29T21:35:29-05:00	n. put diamond in basket. put torch in basket
+2026-09-29T21:38:37-05:00	put screwdriver in basket. raise basket
+2026-09-29T21:38:47-05:00	e
+2026-09-29T21:39:35-05:00	take lantern. take matchbook. take bracelet. take jade
+2026-09-29T21:39:40-05:00	e. u. u
+2026-09-29T21:39:59-05:00	n. e. s. n
+2026-09-29T21:40:07-05:00	u. s. take torch
+2026-09-29T21:40:26-05:00	take diamond. turn off lamp. take garlic
+2026-09-29T21:40:47-05:00	w. s. e. s
+2026-09-29T21:40:52-05:00	d. n
+2026-09-29T21:41:09-05:00	w. s. e. u
+2026-09-29T21:41:18-05:00	sw. e. s. se
+2026-09-29T21:41:25-05:00	e. e
+2026-09-29T21:42:07-05:00	put diamond in case. put bracelet in case. put jade in case
+2026-09-29T21:42:13-05:00	put torch in case
+2026-09-29T21:42:19-05:00	score
+2026-09-29T21:42:46-05:00	look
+2026-09-29T21:42:52-05:00	diagnose

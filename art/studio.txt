@@ -1,0 +1,8 @@
+   ,-------------------------------------.
+   |  paint splashed in 69 colors        |
+   |   ~~ * ~~ ~ * ~~ ~ ~~ * ~~          |
+   |   ,-----.                           |
+   |   |paper|  on the wall     chimney  |
+   |   '-----'                  ^  (up)  |
+   |                        [fireplace]  |
+   '-----------[ open door v south ]-----'

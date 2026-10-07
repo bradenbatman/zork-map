@@ -1,0 +1,8 @@
+       small opening ^ north
+   ,---------------------------------.
+   |  "GRANITE WALL" etched, south   |
+   |                                 |
+   <== long passage east    \        |
+   |                         \ steep |
+   |                          \ metal|
+   '--------------------------- \ slide v--'

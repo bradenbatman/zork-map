@@ -1,0 +1,7 @@
+  ~~~~~~ the reservoir behind the dam ~~~~~~
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ ===========================================
+ | gate  | gate  | gate  |   (o) green bubble
+ | shut  | shut  | shut  |   [O] bolt on panel
+ |_______|_______|_______|____control_panel__|
+   water spills over the top, gates stay shut

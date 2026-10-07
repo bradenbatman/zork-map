@@ -1,0 +1,7 @@
+   north: a slimy stairway ^
+      ,-----------------------------.
+     /   a large cavern; a stream    \
+    /    runs where the lake was      \
+   |         ~ ~ ~ ~ ~ ~ ~ ~           |
+   |     [ hand-held air pump ]        |
+   '-----------------------------------'

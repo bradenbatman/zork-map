@@ -1,0 +1,75 @@
+{
+  "ground": 2.55,
+  "rooms": {
+    "north-of-house": [
+      0.5,
+      -1.0
+    ],
+    "forest-path": [
+      0.5,
+      -2.0
+    ],
+    "up-a-tree": [
+      1.7,
+      -2.0
+    ],
+    "south-of-house": [
+      0.5,
+      2.05
+    ],
+    "attic": [
+      1.0,
+      0.2
+    ]
+  },
+  "routes": {
+    "slide-room>cellar": [
+      [
+        3.0,
+        3.4
+      ],
+      [
+        3.0,
+        8.4
+      ],
+      [
+        0.3,
+        8.4
+      ],
+      [
+        0.3,
+        12.0
+      ]
+    ],
+    "strange-passage>living-room": [
+      [
+        -0.55,
+        6.5
+      ],
+      [
+        -0.55,
+        1.0
+      ]
+    ],
+    "slide-room>mine-entrance": [
+      [
+        3.7,
+        2.85
+      ],
+      [
+        8.0,
+        2.85
+      ]
+    ],
+    "on-the-rainbow>end-of-rainbow": [
+      [
+        13.1,
+        17.5
+      ],
+      [
+        13.1,
+        1.0
+      ]
+    ]
+  }
+}

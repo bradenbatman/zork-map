@@ -1,0 +1,8 @@
+   ,-------------------------------.
+   | / / /  scratches, dark stains  |
+   |  _____                         |
+   | |     |  the troll is gone     ===> east
+   | |_____|                        |
+   |=== west: a rough hole          |
+   '---------------  ^  ------------'
+                     | south to the cellar

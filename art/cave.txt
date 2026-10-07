@@ -1,0 +1,6 @@
+        /\/\/\/\/\
+       /   a tiny   \
+      /     cave     \____ north >
+     |                |
+   < west ____________|
+      staircase down v

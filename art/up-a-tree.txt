@@ -1,0 +1,9 @@
+      ~~~ leaves ~~~ leaves ~~~
+    ___________________________
+   /        the nearest branch   \
+  |       above is out of reach   |
+  |   _______                     |
+  |  ( nest  )  the jeweled egg   |
+  |   `-----'   (taken, closed)   |
+  '-------------------------------'
+   ten feet above the ground

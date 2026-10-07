@@ -1,0 +1,3086 @@
+{
+ "meta": {
+  "title": "CAS Zork Expedition",
+  "game": "Zork I: The Great Underground Empire",
+  "engine": "Frotz interpreter running Infocom's ZORK1.DAT (revision 88, serial 840726), reached through the CAS Agent chat on cloudandaisummit.com",
+  "player": "Claude Code, playing for Braden",
+  "session": 3,
+  "updated": "2026-09-29T21:44:09-05:00",
+  "step": 73
+ },
+ "status": {
+  "score": 350,
+  "maxScore": 350,
+  "moves": 624,
+  "location": "living-room",
+  "deaths": 0,
+  "inventory": [
+   {
+    "name": "brass lantern",
+    "note": "off"
+   },
+   {
+    "name": "clove of garlic"
+   },
+   {
+    "name": "matchbook"
+   },
+   {
+    "name": "screwdriver"
+   }
+  ]
+ },
+ "groundY": 2.7,
+ "zones": {
+  "outside": {
+   "label": "Outside the house",
+   "color": "above"
+  },
+  "house": {
+   "label": "Inside the house",
+   "color": "house"
+  },
+  "cellar": {
+   "label": "Cellar and passages",
+   "color": "under"
+  },
+  "maze": {
+   "label": "Maze",
+   "color": "maze"
+  },
+  "water": {
+   "label": "Dam and canyon",
+   "color": "water"
+  },
+  "mirror": {
+   "label": "Atlantis, caves and mirror",
+   "color": "maze"
+  },
+  "temple": {
+   "label": "Dome, temple and Hades",
+   "color": "maze"
+  },
+  "mine": {
+   "label": "Coal mine",
+   "color": "house"
+  },
+  "river": {
+   "label": "Frigid River and beaches",
+   "color": "water"
+  }
+ },
+ "rooms": {
+  "west-of-house": {
+   "name": "West of House",
+   "zone": "outside",
+   "pos": [
+    -1,
+    1
+   ],
+   "order": 1,
+   "visited": true,
+   "level": "surface",
+   "tags": [
+    "start"
+   ],
+   "note": "Where the game starts. A small mailbox stands here and the front door is boarded shut.",
+   "items": [],
+   "open_exits": []
+  },
+  "south-of-house": {
+   "name": "South of House",
+   "zone": "outside",
+   "pos": [
+    0.9,
+    2
+   ],
+   "order": 2,
+   "visited": true,
+   "level": "surface",
+   "note": "The south wall of the house. No door, and the windows are boarded.",
+   "items": [],
+   "open_exits": []
+  },
+  "behind-house": {
+   "name": "Behind House",
+   "zone": "outside",
+   "pos": [
+    2,
+    1
+   ],
+   "order": 3,
+   "visited": true,
+   "level": "surface",
+   "note": "A path runs east into the forest. A small window in the wall is slightly open and can be pushed the rest of the way.",
+   "items": [],
+   "open_exits": []
+  },
+  "kitchen": {
+   "name": "Kitchen",
+   "zone": "house",
+   "pos": [
+    1,
+    1
+   ],
+   "order": 4,
+   "visited": true,
+   "level": "surface",
+   "note": "Table set for food prep. Stairs go up, a chimney goes down, a passage runs west, and the window leads back outside.",
+   "items": [
+    {
+     "name": "glass bottle of water",
+     "type": "item"
+    }
+   ],
+   "open_exits": [
+    {
+     "dir": "D",
+     "note": "chimney down, probably the same one; one-way from below"
+    }
+   ]
+  },
+  "attic": {
+   "name": "Attic",
+   "zone": "house",
+   "pos": [
+    1,
+    0
+   ],
+   "order": 5,
+   "visited": true,
+   "level": "surface",
+   "tags": [
+    "dark"
+   ],
+   "note": "Dark, so bring the lamp. Dead end with only the stairs down. Rope and a knife were here.",
+   "items": [],
+   "open_exits": []
+  },
+  "living-room": {
+   "name": "Living Room",
+   "zone": "house",
+   "pos": [
+    0,
+    1
+   ],
+   "order": 6,
+   "visited": true,
+   "level": "surface",
+   "note": "The trophy case holds all nineteen treasures and a new parchment map. The rug is aside and the west door has a hole in it from the cyclops.",
+   "items": [
+    {
+     "name": "trophy case",
+     "type": "fixture",
+     "note": "open"
+    },
+    {
+     "name": "leather bag of coins",
+     "type": "treasure",
+     "note": "banked"
+    },
+    {
+     "name": "crystal trident",
+     "type": "treasure",
+     "note": "banked"
+    },
+    {
+     "name": "trunk of jewels",
+     "type": "treasure",
+     "note": "banked"
+    },
+    {
+     "name": "platinum bar",
+     "type": "treasure",
+     "note": "banked"
+    },
+    {
+     "name": "oriental rug",
+     "type": "fixture",
+     "note": "moved aside from the trap door"
+    },
+    {
+     "name": "gold coffin",
+     "type": "treasure",
+     "note": "banked"
+    },
+    {
+     "name": "sceptre",
+     "type": "treasure",
+     "note": "banked"
+    },
+    {
+     "name": "crystal skull",
+     "type": "treasure",
+     "note": "banked"
+    },
+    {
+     "name": "ivory torch",
+     "type": "treasure",
+     "note": "banked"
+    },
+    {
+     "name": "silver chalice",
+     "type": "treasure",
+     "note": "banked"
+    },
+    {
+     "name": "painting",
+     "type": "treasure",
+     "note": "banked"
+    },
+    {
+     "name": "jewel-encrusted egg",
+     "type": "treasure",
+     "note": "banked"
+    },
+    {
+     "name": "golden clockwork canary",
+     "type": "treasure",
+     "note": "banked"
+    },
+    {
+     "name": "scarab",
+     "type": "treasure",
+     "note": "banked"
+    },
+    {
+     "name": "emerald",
+     "type": "treasure",
+     "note": "banked"
+    },
+    {
+     "name": "pot of gold",
+     "type": "treasure",
+     "note": "banked"
+    },
+    {
+     "name": "jade figurine",
+     "type": "treasure",
+     "note": "banked"
+    },
+    {
+     "name": "sapphire bracelet",
+     "type": "treasure",
+     "note": "banked"
+    },
+    {
+     "name": "huge diamond",
+     "type": "treasure",
+     "note": "banked"
+    },
+    {
+     "name": "brass bauble",
+     "type": "treasure",
+     "note": "banked"
+    },
+    {
+     "name": "ancient parchment map",
+     "type": "fixture",
+     "note": "appeared in the trophy case with the last treasure"
+    }
+   ],
+   "open_exits": []
+  },
+  "cellar": {
+   "name": "Cellar",
+   "zone": "cellar",
+   "pos": [
+    0,
+    12.0
+   ],
+   "order": 7,
+   "visited": true,
+   "level": "under",
+   "note": "Dark and damp, and the first room below ground. A passage runs north, a crawlway runs south, and a steep metal ramp on the west side cannot be climbed. The sword glows blue here.",
+   "items": [],
+   "open_exits": [
+    {
+     "dir": "N",
+     "note": "narrow passage, the sword glows blue nearby"
+    }
+   ]
+  },
+  "east-of-chasm": {
+   "name": "East of Chasm",
+   "zone": "cellar",
+   "pos": [
+    0,
+    13.1
+   ],
+   "order": 8,
+   "visited": true,
+   "level": "under",
+   "note": "The east lip of a chasm with no visible bottom. A narrow passage leads back north and the path continues east.",
+   "items": [],
+   "open_exits": []
+  },
+  "gallery": {
+   "name": "Gallery",
+   "zone": "cellar",
+   "pos": [
+    1.4,
+    13.1
+   ],
+   "order": 9,
+   "visited": true,
+   "level": "under",
+   "note": "An art gallery that vandals have mostly emptied. One big painting is left on the far wall. Other exits lead north and back west.",
+   "items": [
+    {
+     "name": "elvish sword",
+     "type": "weapon",
+     "note": "dropped here to lift the painting"
+    }
+   ],
+   "open_exits": []
+  },
+  "troll-room": {
+   "name": "Troll Room",
+   "zone": "cellar",
+   "pos": [
+    0.9,
+    10.9
+   ],
+   "order": 10,
+   "visited": true,
+   "level": "under",
+   "note": "A small stone room north of the Cellar with scratched, bloodstained walls. Passages lead east and south, and a rough hole opens to the west. A troll guarded it until the sword ended that.",
+   "items": [
+    {
+     "name": "bloody axe",
+     "type": "junk"
+    }
+   ],
+   "open_exits": []
+  },
+  "east-west-passage": {
+   "name": "East-West Passage",
+   "zone": "cellar",
+   "pos": [
+    2.3,
+    10.9
+   ],
+   "order": 11,
+   "visited": true,
+   "level": "under",
+   "note": "A narrow passage running east to west. A narrow stairway leads down at the north end.",
+   "items": [
+    {
+     "name": "brass lantern",
+     "type": "tool",
+     "note": "left here, was carried off and dropped by the thief"
+    }
+   ],
+   "open_exits": [
+    {
+     "dir": "D",
+     "note": "narrow stairway at the north end"
+    }
+   ]
+  },
+  "round-room": {
+   "name": "Round Room",
+   "zone": "cellar",
+   "pos": [
+    3.7,
+    10.9
+   ],
+   "order": 12,
+   "visited": true,
+   "level": "under",
+   "note": "A circular stone hub with passages in every direction, though several are blocked by cave-ins. Only the west and east exits are walked so far.",
+   "items": [
+    {
+     "name": "black book",
+     "type": "junk"
+    },
+    {
+     "name": "candles",
+     "type": "junk"
+    },
+    {
+     "name": "hand-held air pump",
+     "type": "tool"
+    }
+   ],
+   "open_exits": [
+    {
+     "dir": "N",
+     "note": "north-south passage, not walked"
+    }
+   ]
+  },
+  "loud-room": {
+   "name": "Loud Room",
+   "zone": "cellar",
+   "pos": [
+    5.1,
+    10.9
+   ],
+   "order": 13,
+   "visited": true,
+   "level": "under",
+   "tags": [
+    "echo solved"
+   ],
+   "note": "Huge and deafening at first, and the noise swallows normal commands. Saying echo makes it quiet. A stone stairway leads up and a narrow passage continues east.",
+   "items": [
+    {
+     "name": "echo",
+     "type": "fixture",
+     "note": "solved"
+    }
+   ],
+   "open_exits": []
+  },
+  "damp-cave": {
+   "name": "Damp Cave",
+   "zone": "cellar",
+   "pos": [
+    6.5,
+    10.9
+   ],
+   "order": 14,
+   "visited": true,
+   "level": "under",
+   "note": "A damp cave east of the Loud Room. It runs east to west and narrows to a crack toward the south.",
+   "items": [],
+   "open_exits": [
+    {
+     "dir": "E",
+     "note": "continues east"
+    },
+    {
+     "dir": "S",
+     "note": "narrow crack"
+    }
+   ]
+  },
+  "deep-canyon": {
+   "name": "Deep Canyon",
+   "zone": "water",
+   "pos": [
+    5.1,
+    9.8
+   ],
+   "order": 15,
+   "visited": true,
+   "level": "under",
+   "note": "The south edge of a deep canyon, reached by a stairway up from the Loud Room. Passages lead east, northwest and southwest, and you can hear flowing water below.",
+   "items": [],
+   "open_exits": [
+    {
+     "dir": "NW"
+    },
+    {
+     "dir": "SW"
+    }
+   ]
+  },
+  "dam": {
+   "name": "Dam",
+   "zone": "water",
+   "pos": [
+    6.5,
+    9.8
+   ],
+   "order": 16,
+   "visited": true,
+   "level": "under",
+   "note": "The top of Flood Control Dam #3. The sluice gates are shut with a wide reservoir behind them. A control panel carries a big bolt with a small green bubble above it.",
+   "items": [],
+   "open_exits": []
+  },
+  "dam-lobby": {
+   "name": "Dam Lobby",
+   "zone": "water",
+   "pos": [
+    6.5,
+    8.7
+   ],
+   "order": 17,
+   "visited": true,
+   "level": "under",
+   "note": "The old waiting room for dam tours. Doorways to the north and east are marked Private. Guidebooks lie on the desk.",
+   "items": [
+    {
+     "name": "guidebooks",
+     "type": "junk"
+    }
+   ],
+   "open_exits": [
+    {
+     "dir": "E",
+     "note": "doorway marked Private"
+    }
+   ]
+  },
+  "maintenance-room": {
+   "name": "Maintenance Room",
+   "zone": "water",
+   "pos": [
+    6.5,
+    7.6
+   ],
+   "order": 18,
+   "visited": true,
+   "level": "under",
+   "note": "A ransacked maintenance room. Four coloured buttons (blue, yellow, brown, red) sit on the wall. Tool chests, a wrench, a screwdriver and a tube are here.",
+   "items": [
+    {
+     "name": "tube of toothpaste",
+     "type": "junk"
+    }
+   ],
+   "open_exits": [
+    {
+     "dir": "W",
+     "note": "doorway"
+    }
+   ]
+  },
+  "dam-base": {
+   "name": "Dam Base",
+   "zone": "water",
+   "pos": [
+    8.0,
+    10.9
+   ],
+   "order": 19,
+   "visited": true,
+   "level": "under",
+   "note": "The foot of the dam, where the river Frigid starts. White cliffs line both banks. A folded pile of plastic with a small valve lies on the shore.",
+   "items": [
+    {
+     "name": "hand-held air pump",
+     "type": "tool",
+     "note": "beside the inflated boat"
+    },
+    {
+     "name": "magic boat",
+     "type": "fixture",
+     "note": "inflated, label inside"
+    }
+   ],
+   "open_exits": []
+  },
+  "reservoir-south": {
+   "name": "Reservoir South",
+   "zone": "water",
+   "pos": [
+    5.1,
+    8.7
+   ],
+   "order": 20,
+   "visited": true,
+   "level": "under",
+   "note": "A long room on the south shore of the reservoir. Paths run east and west along the stream, southwest along a chasm and southeast into a canyon. The lake was draining fast.",
+   "items": [],
+   "open_exits": [
+    {
+     "dir": "E"
+    },
+    {
+     "dir": "W"
+    },
+    {
+     "dir": "SW",
+     "note": "steep path along a chasm"
+    },
+    {
+     "dir": "SE",
+     "note": "path into a canyon"
+    }
+   ]
+  },
+  "reservoir": {
+   "name": "Reservoir",
+   "zone": "water",
+   "pos": [
+    5.1,
+    7.6
+   ],
+   "order": 21,
+   "visited": true,
+   "level": "under",
+   "note": "What used to be a lake is now a mud pile. Shores lie to the north and south. A trunk of jewels sat half buried here until the thief took it.",
+   "items": [
+    {
+     "name": "wrench",
+     "type": "tool",
+     "note": "dropped here to lift the trunk"
+    },
+    {
+     "name": "skeleton key",
+     "type": "tool"
+    },
+    {
+     "name": "screwdriver",
+     "type": "tool",
+     "note": "wanted at the machine room"
+    }
+   ],
+   "open_exits": []
+  },
+  "reservoir-north": {
+   "name": "Reservoir North",
+   "zone": "water",
+   "pos": [
+    5.1,
+    6.5
+   ],
+   "order": 22,
+   "visited": true,
+   "level": "under",
+   "note": "The north end of the reservoir cavern. With the lake down there is only a wide stream through the south half. A slimy stairway leaves to the north. The hand-held air pump was on the floor here.",
+   "items": [],
+   "open_exits": []
+  },
+  "atlantis-room": {
+   "name": "Atlantis Room",
+   "zone": "mirror",
+   "pos": [
+    5.1,
+    5.4
+   ],
+   "order": 23,
+   "visited": true,
+   "level": "under",
+   "note": "An ancient room that spent ages under water. One exit leads south and a staircase leads up. Poseidon's crystal trident lay on the shore.",
+   "items": [],
+   "open_exits": []
+  },
+  "cave": {
+   "name": "Cave",
+   "zone": "mirror",
+   "pos": [
+    6.5,
+    5.4
+   ],
+   "order": 24,
+   "visited": true,
+   "level": "under",
+   "note": "A tiny cave with a staircase down to the Atlantis Room. Entrances lead west and north.",
+   "items": [],
+   "open_exits": [
+    {
+     "dir": "W",
+     "note": "entrance west, not tried"
+    }
+   ]
+  },
+  "mirror-room": {
+   "name": "Mirror Room",
+   "zone": "mirror",
+   "pos": [
+    5.1,
+    4.4
+   ],
+   "order": 25,
+   "visited": true,
+   "level": "under",
+   "note": "A large square room with tall ceilings and an enormous mirror filling the south wall. Exits lead out of the other three sides.",
+   "items": [],
+   "open_exits": []
+  },
+  "twisting-passage": {
+   "name": "Twisting Passage",
+   "zone": "mirror",
+   "pos": [
+    3.7,
+    4.4
+   ],
+   "order": 26,
+   "visited": true,
+   "level": "under",
+   "note": "A winding passage with exits east and north. The north exit loops back into the Mirror Room.",
+   "items": [],
+   "open_exits": [
+    {
+     "dir": "E",
+     "note": "not tried"
+    }
+   ]
+  },
+  "cold-passage": {
+   "name": "Cold Passage",
+   "zone": "mirror",
+   "pos": [
+    5.1,
+    3.4
+   ],
+   "order": 27,
+   "visited": true,
+   "level": "under",
+   "note": "A cold and damp corridor where a long east-west passage turns into a path leading south.",
+   "items": [],
+   "open_exits": []
+  },
+  "slide-room": {
+   "name": "Slide Room",
+   "zone": "mirror",
+   "pos": [
+    3.7,
+    3.4
+   ],
+   "order": 28,
+   "visited": true,
+   "level": "under",
+   "note": "A small chamber that was part of a coal mine. The words Granite Wall are etched into the south wall. A long passage runs east, a steep metal slide twists downward, and a small opening leads north.",
+   "items": [],
+   "open_exits": []
+  },
+  "studio": {
+   "name": "Studio",
+   "zone": "cellar",
+   "pos": [
+    1.4,
+    12.0
+   ],
+   "order": 29,
+   "visited": true,
+   "level": "under",
+   "note": "An artist's studio splattered with paint. A door at the south end leads back to the gallery. A narrow chimney climbs from the fireplace, and the game hints it is a one-way trip up.",
+   "items": [],
+   "open_exits": []
+  },
+  "clearing": {
+   "name": "Clearing",
+   "zone": "outside",
+   "pos": [
+    3.4,
+    1
+   ],
+   "order": 30,
+   "visited": true,
+   "level": "surface",
+   "note": "A small clearing on a well-marked forest path that runs east and west, just past the back of the house.",
+   "items": [],
+   "open_exits": []
+  },
+  "canyon-view": {
+   "name": "Canyon View",
+   "zone": "outside",
+   "pos": [
+    4.8,
+    1
+   ],
+   "order": 31,
+   "visited": true,
+   "level": "surface",
+   "note": "The top of the Great Canyon's west wall with a wide view of the river, the White Cliffs, the Flathead Mountains and Aragain Falls with its rainbow. A path leads northwest and you can climb down.",
+   "items": [],
+   "open_exits": []
+  },
+  "rocky-ledge": {
+   "name": "Rocky Ledge",
+   "zone": "outside",
+   "pos": [
+    4.8,
+    2.0
+   ],
+   "order": 32,
+   "visited": true,
+   "level": "surface",
+   "note": "A ledge about halfway down the canyon wall. The main flow from the falls twists into a passage that is too small to enter. Cliff above and canyon bottom below.",
+   "items": [],
+   "open_exits": []
+  },
+  "canyon-bottom": {
+   "name": "Canyon Bottom",
+   "zone": "outside",
+   "pos": [
+    6.2,
+    2.0
+   ],
+   "order": 33,
+   "visited": true,
+   "level": "surface",
+   "note": "The floor of the canyon, beneath the walls, with the lesser runoff of the falls flowing by. A narrow path leads north.",
+   "items": [],
+   "open_exits": []
+  },
+  "end-of-rainbow": {
+   "name": "End of Rainbow",
+   "zone": "outside",
+   "pos": [
+    6.2,
+    1.0
+   ],
+   "order": 34,
+   "visited": true,
+   "level": "surface",
+   "note": "A small rocky beach on the Frigid River below the falls, squeezed by the White Cliffs. A rainbow arcs over the falls to the east and a narrow path leads southwest.",
+   "items": [
+    {
+     "name": "rainbow",
+     "type": "puzzle",
+     "note": "wave the sceptre here to make it solid and reveal the pot of gold"
+    }
+   ],
+   "open_exits": []
+  },
+  "north-of-house": {
+   "name": "North of House",
+   "zone": "outside",
+   "pos": [
+    0,
+    0
+   ],
+   "order": 35,
+   "visited": true,
+   "level": "surface",
+   "note": "The north wall of the house. No door, and the windows are boarded up. A narrow path winds north into the trees.",
+   "items": [],
+   "open_exits": []
+  },
+  "forest-path": {
+   "name": "Forest Path",
+   "zone": "outside",
+   "pos": [
+    0,
+    -1
+   ],
+   "order": 36,
+   "visited": true,
+   "level": "surface",
+   "note": "A path winding north to south through a dimly lit forest. One especially large tree with low branches stands at the edge.",
+   "items": [],
+   "open_exits": [
+    {
+     "dir": "N",
+     "note": "path continues north"
+    }
+   ]
+  },
+  "up-a-tree": {
+   "name": "Up a Tree",
+   "zone": "outside",
+   "pos": [
+    1.4,
+    -1
+   ],
+   "order": 37,
+   "visited": true,
+   "level": "surface",
+   "note": "About ten feet up among large branches. A bird's nest beside you held a jewel-encrusted egg, hinged and fragile.",
+   "items": [
+    {
+     "name": "bird's nest",
+     "type": "fixture",
+     "note": "empty, the egg was taken"
+    }
+   ],
+   "open_exits": []
+  },
+  "maze-1": {
+   "name": "Maze",
+   "zone": "maze",
+   "pos": [
+    -1.4,
+    10.9
+   ],
+   "order": 38,
+   "visited": true,
+   "level": "under",
+   "note": "First cell of the maze, west of the Troll Room. Every cell reads the same, so follow the direction labels.",
+   "items": [],
+   "open_exits": [],
+   "tags": [
+    "dark"
+   ]
+  },
+  "maze-2": {
+   "name": "Maze",
+   "zone": "maze",
+   "pos": [
+    -1.4,
+    9.8
+   ],
+   "order": 39,
+   "visited": true,
+   "level": "under",
+   "note": "Second cell. South from the first. Positions in the maze are schematic.",
+   "items": [],
+   "open_exits": [],
+   "tags": [
+    "dark"
+   ]
+  },
+  "maze-3": {
+   "name": "Maze",
+   "zone": "maze",
+   "pos": [
+    -2.8,
+    9.8
+   ],
+   "order": 40,
+   "visited": true,
+   "level": "under",
+   "note": "Third cell, east of the second, with a way up.",
+   "items": [],
+   "open_exits": [],
+   "tags": [
+    "dark"
+   ]
+  },
+  "maze-4": {
+   "name": "Maze (Skeleton)",
+   "zone": "maze",
+   "pos": [
+    -2.8,
+    8.7
+   ],
+   "order": 41,
+   "visited": true,
+   "level": "under",
+   "note": "A dead end up from the third cell. A skeleton lies here, with a rusty knife, a useless old lantern, a skeleton key and a leather bag of coins.",
+   "items": [
+    {
+     "name": "skeleton",
+     "type": "fixture"
+    },
+    {
+     "name": "rusty knife",
+     "type": "danger",
+     "note": "looks cursed"
+    },
+    {
+     "name": "deceased adventurer's lantern",
+     "type": "junk"
+    }
+   ],
+   "open_exits": [],
+   "tags": [
+    "dark"
+   ]
+  },
+  "maze-5": {
+   "name": "Maze",
+   "zone": "maze",
+   "pos": [
+    -1.4,
+    8.7
+   ],
+   "order": 42,
+   "visited": true,
+   "level": "under",
+   "note": "Southwest of the skeleton.",
+   "items": [],
+   "open_exits": [],
+   "tags": [
+    "dark"
+   ]
+  },
+  "maze-6": {
+   "name": "Maze",
+   "zone": "maze",
+   "pos": [
+    -1.4,
+    7.6
+   ],
+   "order": 43,
+   "visited": true,
+   "level": "under",
+   "note": "East of the previous cell.",
+   "items": [],
+   "open_exits": [],
+   "tags": [
+    "dark"
+   ]
+  },
+  "maze-7": {
+   "name": "Maze",
+   "zone": "maze",
+   "pos": [
+    -2.8,
+    7.6
+   ],
+   "order": 44,
+   "visited": true,
+   "level": "under",
+   "note": "South of the previous cell, one step from the Cyclops Room.",
+   "items": [],
+   "open_exits": [],
+   "tags": [
+    "dark"
+   ]
+  },
+  "cyclops-room": {
+   "name": "Cyclops Room",
+   "zone": "maze",
+   "pos": [
+    -2.8,
+    6.5
+   ],
+   "order": 45,
+   "visited": true,
+   "level": "under",
+   "note": "A room with an exit northwest, a staircase up, and a hole in the east wall since the cyclops fled at his magic word.",
+   "items": [
+    {
+     "name": "skeleton key",
+     "type": "tool"
+    },
+    {
+     "name": "wrench",
+     "type": "tool"
+    }
+   ],
+   "open_exits": []
+  },
+  "treasure-room": {
+   "name": "Treasure Room",
+   "zone": "maze",
+   "pos": [
+    -2.8,
+    5.4
+   ],
+   "order": 46,
+   "visited": true,
+   "level": "under",
+   "note": "The thief's lair, up the stairs from the Cyclops Room. Its east wall is solid granite and old bags crumble on the floor. The thief died here and his whole hoard came back into view.",
+   "items": [
+    {
+     "name": "nasty knife",
+     "type": "weapon"
+    }
+   ],
+   "open_exits": []
+  },
+  "strange-passage": {
+   "name": "Strange Passage",
+   "zone": "maze",
+   "pos": [
+    -1.4,
+    6.5
+   ],
+   "order": 47,
+   "visited": true,
+   "level": "under",
+   "note": "A long passage. One entrance to the west and on the east an old wooden door with a cyclops-sized hole in it, which is the back of the Living Room.",
+   "items": [],
+   "open_exits": []
+  },
+  "engravings-cave": {
+   "name": "Engravings Cave",
+   "zone": "cellar",
+   "pos": [
+    5.1,
+    12.0
+   ],
+   "order": 58,
+   "visited": true,
+   "level": "under",
+   "note": "A low cave southeast of the Round Room with old engravings on the walls. The way on leads east.",
+   "items": [],
+   "open_exits": []
+  },
+  "dome-room": {
+   "name": "Dome Room",
+   "zone": "temple",
+   "pos": [
+    6.5,
+    12.0
+   ],
+   "order": 59,
+   "visited": true,
+   "level": "under",
+   "note": "The rim of a big dome with a wooden railing. A rope tied to the railing hangs down into the room below.",
+   "items": [
+    {
+     "name": "railing with the rope tied on",
+     "type": "fixture"
+    }
+   ],
+   "open_exits": []
+  },
+  "torch-room": {
+   "name": "Torch Room",
+   "zone": "temple",
+   "pos": [
+    6.5,
+    13.1
+   ],
+   "order": 60,
+   "visited": true,
+   "level": "under",
+   "note": "A big room under the dome with a white marble pedestal. The rope stops well over your head, so there is no climbing back. A staircase leads down.",
+   "items": [],
+   "open_exits": []
+  },
+  "temple": {
+   "name": "Temple",
+   "zone": "temple",
+   "pos": [
+    6.5,
+    14.2
+   ],
+   "order": 61,
+   "visited": true,
+   "level": "under",
+   "note": "The north end of a large temple. Stairs lead down toward the Egyptian Room and the altar lies to the south.",
+   "items": [],
+   "open_exits": []
+  },
+  "altar": {
+   "name": "Altar",
+   "zone": "temple",
+   "pos": [
+    6.5,
+    15.3
+   ],
+   "order": 62,
+   "visited": true,
+   "level": "under",
+   "note": "The south end of the temple, an altar between two candles with a big black book. A hole in the floor leads down and cannot be climbed back. Praying here carries you out to the forest.",
+   "items": [],
+   "open_exits": []
+  },
+  "egyptian-room": {
+   "name": "Egyptian Room",
+   "zone": "temple",
+   "pos": [
+    7.9,
+    14.2
+   ],
+   "order": 63,
+   "visited": true,
+   "level": "under",
+   "note": "A tomb below the temple, with a staircase back up to the west. A solid-gold coffin lay here with a sceptre inside.",
+   "items": [],
+   "open_exits": []
+  },
+  "cave-b": {
+   "name": "Cave (Hades)",
+   "zone": "temple",
+   "pos": [
+    5.1,
+    15.3
+   ],
+   "order": 64,
+   "visited": true,
+   "level": "under",
+   "note": "A tiny cave under the altar hole. A dark staircase leads down and a passage leads north.",
+   "items": [],
+   "open_exits": []
+  },
+  "entrance-to-hades": {
+   "name": "Entrance to Hades",
+   "zone": "temple",
+   "pos": [
+    5.1,
+    16.4
+   ],
+   "order": 65,
+   "visited": true,
+   "level": "under",
+   "note": "Outside a great gateway with a warning carved over it. Evil spirits bar the way until they are driven off with the bell, candles and book.",
+   "items": [
+    {
+     "name": "brass bell",
+     "type": "tool",
+     "note": "red hot, left where it fell"
+    }
+   ],
+   "open_exits": []
+  },
+  "land-of-the-dead": {
+   "name": "Land of the Dead",
+   "zone": "temple",
+   "pos": [
+    5.1,
+    17.5
+   ],
+   "order": 66,
+   "visited": true,
+   "level": "under",
+   "note": "Beyond the gate, where lost souls moan and adventurers' remains are stacked in a corner. The crystal skull lay here.",
+   "items": [],
+   "open_exits": []
+  },
+  "mirror-room-2": {
+   "name": "Mirror Room (south)",
+   "zone": "temple",
+   "pos": [
+    3.7,
+    15.3
+   ],
+   "order": 67,
+   "visited": true,
+   "level": "under",
+   "note": "A second big square room with an enormous mirror on the south wall and three exits. It looks the same as the first, but it lies on the Hades side.",
+   "items": [],
+   "open_exits": []
+  },
+  "narrow-passage": {
+   "name": "Narrow Passage",
+   "zone": "temple",
+   "pos": [
+    3.7,
+    14.2
+   ],
+   "order": 68,
+   "visited": true,
+   "level": "under",
+   "note": "A long narrow corridor where a north-south passage narrows still further. North reaches the Round Room.",
+   "items": [],
+   "open_exits": []
+  },
+  "forest-1": {
+   "name": "Forest",
+   "zone": "outside",
+   "pos": [
+    -1.0,
+    -2.0
+   ],
+   "order": 69,
+   "visited": true,
+   "level": "surface",
+   "note": "A forest with trees in all directions and sunlight to the east. Praying at the altar drops you here. West is blocked without a machete.",
+   "items": [],
+   "open_exits": []
+  },
+  "clearing-grating": {
+   "name": "Clearing (grating)",
+   "zone": "outside",
+   "pos": [
+    0.5,
+    -3.1
+   ],
+   "order": 70,
+   "visited": true,
+   "level": "surface",
+   "note": "A clearing ringed by forest with a path back south. A pile of leaves hides a locked grating.",
+   "items": [
+    {
+     "name": "grating",
+     "type": "puzzle",
+     "note": "locked"
+    }
+   ],
+   "open_exits": []
+  },
+  "river-1": {
+   "name": "Frigid River",
+   "zone": "river",
+   "pos": [
+    9.4,
+    10.9
+   ],
+   "order": 71,
+   "visited": true,
+   "level": "under",
+   "note": "The river just below the dam, with a landing on the west shore. Launching the boat from the dam base puts you here.",
+   "items": [],
+   "open_exits": []
+  },
+  "river-2": {
+   "name": "Frigid River (bend)",
+   "zone": "river",
+   "pos": [
+    9.4,
+    12.0
+   ],
+   "order": 72,
+   "visited": true,
+   "level": "under",
+   "note": "The river turns a corner. White cliffs loom on the east bank and rocks block landing on the west.",
+   "items": [],
+   "open_exits": []
+  },
+  "river-3": {
+   "name": "Frigid River (valley)",
+   "zone": "river",
+   "pos": [
+    9.4,
+    13.1
+   ],
+   "order": 73,
+   "visited": true,
+   "level": "under",
+   "note": "The river descends into a valley with a narrow beach on the west shore. A faint rumbling can be heard ahead.",
+   "items": [],
+   "open_exits": []
+  },
+  "river-4": {
+   "name": "Frigid River (buoy)",
+   "zone": "river",
+   "pos": [
+    9.4,
+    14.2
+   ],
+   "order": 74,
+   "visited": true,
+   "level": "under",
+   "note": "The river runs faster with a sandy beach on the east shore. A red buoy floats here, and it holds an emerald.",
+   "items": [],
+   "open_exits": []
+  },
+  "river-5": {
+   "name": "Frigid River (landing)",
+   "zone": "river",
+   "pos": [
+    9.4,
+    15.3
+   ],
+   "order": 75,
+   "visited": true,
+   "level": "under",
+   "note": "The rushing sound is nearly unbearable. A large landing area lies on the east shore, and the falls are close.",
+   "items": [],
+   "open_exits": []
+  },
+  "shore": {
+   "name": "Shore",
+   "zone": "river",
+   "pos": [
+    10.8,
+    15.3
+   ],
+   "order": 76,
+   "visited": true,
+   "level": "under",
+   "note": "The east shore, a path running north and south beside treacherous water. The south end leads to Aragain Falls.",
+   "items": [],
+   "open_exits": []
+  },
+  "sandy-beach": {
+   "name": "Sandy Beach",
+   "zone": "river",
+   "pos": [
+    10.8,
+    14.2
+   ],
+   "order": 77,
+   "visited": true,
+   "level": "under",
+   "note": "A large sandy beach on the east shore. A passage is half buried in sand to the northeast.",
+   "items": [],
+   "open_exits": []
+  },
+  "sandy-cave": {
+   "name": "Sandy Cave",
+   "zone": "river",
+   "pos": [
+    12.2,
+    14.2
+   ],
+   "order": 78,
+   "visited": true,
+   "level": "under",
+   "note": "A sand-filled cave. Digging four times with the shovel turns up a scarab.",
+   "items": [
+    {
+     "name": "shovel",
+     "type": "tool",
+     "note": "left after the dig"
+    }
+   ],
+   "open_exits": []
+  },
+  "aragain-falls": {
+   "name": "Aragain Falls",
+   "zone": "river",
+   "pos": [
+    10.8,
+    16.4
+   ],
+   "order": 79,
+   "visited": true,
+   "level": "under",
+   "note": "The top of an enormous waterfall with a 450 foot drop. Once the sceptre has been waved, a solid rainbow spans it and leads west.",
+   "items": [],
+   "open_exits": []
+  },
+  "on-the-rainbow": {
+   "name": "On the Rainbow",
+   "zone": "river",
+   "pos": [
+    10.8,
+    17.5
+   ],
+   "order": 80,
+   "visited": true,
+   "level": "under",
+   "note": "On top of the solid rainbow with a view of the falls. It runs east and west and joins the Aragain Falls path to the End of Rainbow.",
+   "items": [],
+   "open_exits": []
+  },
+  "mine-entrance": {
+   "name": "Mine Entrance",
+   "zone": "mine",
+   "pos": [
+    8.0,
+    3.4
+   ],
+   "order": 81,
+   "visited": true,
+   "level": "under",
+   "note": "The mouth of an old coal mine, north of the Slide Room. The shaft goes west and another exit leads south.",
+   "items": [],
+   "open_exits": [],
+   "tags": [
+    "dark"
+   ]
+  },
+  "squeaky-room": {
+   "name": "Squeaky Room",
+   "zone": "mine",
+   "pos": [
+    9.4,
+    3.4
+   ],
+   "order": 82,
+   "visited": true,
+   "level": "under",
+   "note": "A small room with strange squeaks coming from the north.",
+   "items": [],
+   "open_exits": [],
+   "tags": [
+    "dark"
+   ]
+  },
+  "bat-room": {
+   "name": "Bat Room",
+   "zone": "mine",
+   "pos": [
+    9.4,
+    4.5
+   ],
+   "order": 83,
+   "visited": true,
+   "level": "under",
+   "note": "A small room with doors east and south, and a deranged vampire bat on the ceiling that garlic keeps away. A jade figurine sits here.",
+   "items": [],
+   "open_exits": [],
+   "tags": [
+    "dark"
+   ]
+  },
+  "shaft-room": {
+   "name": "Shaft Room",
+   "zone": "mine",
+   "pos": [
+    10.8,
+    4.5
+   ],
+   "order": 84,
+   "visited": true,
+   "level": "under",
+   "note": "A large room around a shaft with an iron chain and a basket. The basket carries things down to the machine side.",
+   "items": [
+    {
+     "name": "basket on a chain",
+     "type": "puzzle"
+    },
+    {
+     "name": "clove of garlic",
+     "type": "item",
+     "note": "left where the basket hangs"
+    },
+    {
+     "name": "brown sack",
+     "type": "item"
+    }
+   ],
+   "open_exits": [],
+   "tags": [
+    "dark"
+   ]
+  },
+  "smelly-room": {
+   "name": "Smelly Room",
+   "zone": "mine",
+   "pos": [
+    10.8,
+    3.4
+   ],
+   "order": 85,
+   "visited": true,
+   "level": "under",
+   "note": "A plain room with a foul odour drifting up from a staircase down. A narrow tunnel leads south.",
+   "items": [
+    {
+     "name": "elvish sword",
+     "type": "weapon"
+    }
+   ],
+   "open_exits": [],
+   "tags": [
+    "dark"
+   ]
+  },
+  "gas-room": {
+   "name": "Gas Room",
+   "zone": "mine",
+   "pos": [
+    12.2,
+    3.4
+   ],
+   "order": 86,
+   "visited": true,
+   "level": "under",
+   "note": "A small room thick with coal gas. No flame may enter, not a torch, candle or match. A tunnel leads east.",
+   "items": [
+    {
+     "name": "coal gas",
+     "type": "danger"
+    }
+   ],
+   "open_exits": [],
+   "tags": [
+    "dark"
+   ]
+  },
+  "coal-mine-1": {
+   "name": "Coal Mine (1)",
+   "zone": "mine",
+   "pos": [
+    12.2,
+    4.5
+   ],
+   "order": 87,
+   "visited": true,
+   "level": "under",
+   "note": "A plain part of a coal mine, east of the Gas Room.",
+   "items": [],
+   "open_exits": [],
+   "tags": [
+    "dark"
+   ]
+  },
+  "coal-mine-2": {
+   "name": "Coal Mine (2)",
+   "zone": "mine",
+   "pos": [
+    12.2,
+    5.6
+   ],
+   "order": 88,
+   "visited": true,
+   "level": "under",
+   "note": "Another plain part of the coal mine, northeast of the first.",
+   "items": [],
+   "open_exits": [],
+   "tags": [
+    "dark"
+   ]
+  },
+  "coal-mine-3": {
+   "name": "Coal Mine (3)",
+   "zone": "mine",
+   "pos": [
+    10.8,
+    5.6
+   ],
+   "order": 89,
+   "visited": true,
+   "level": "under",
+   "note": "A third plain cell. South and east of it the route bends on.",
+   "items": [],
+   "open_exits": [],
+   "tags": [
+    "dark"
+   ]
+  },
+  "coal-mine-4": {
+   "name": "Coal Mine (4)",
+   "zone": "mine",
+   "pos": [
+    10.8,
+    6.7
+   ],
+   "order": 90,
+   "visited": true,
+   "level": "under",
+   "note": "The fourth cell, with a way down to a ladder. From here north, east, south, north leads back to the Gas Room.",
+   "items": [],
+   "open_exits": [],
+   "tags": [
+    "dark"
+   ]
+  },
+  "ladder-top": {
+   "name": "Ladder Top",
+   "zone": "mine",
+   "pos": [
+    9.4,
+    6.7
+   ],
+   "order": 91,
+   "visited": true,
+   "level": "under",
+   "note": "A very small room with a rickety wooden ladder going down and a staircase up.",
+   "items": [],
+   "open_exits": [],
+   "tags": [
+    "dark"
+   ]
+  },
+  "ladder-bottom": {
+   "name": "Ladder Bottom",
+   "zone": "mine",
+   "pos": [
+    9.4,
+    7.8
+   ],
+   "order": 92,
+   "visited": true,
+   "level": "under",
+   "note": "A wide room at the foot of the ladder, with passages west and south.",
+   "items": [],
+   "open_exits": [],
+   "tags": [
+    "dark"
+   ]
+  },
+  "dead-end": {
+   "name": "Dead End",
+   "zone": "mine",
+   "pos": [
+    8.0,
+    7.8
+   ],
+   "order": 93,
+   "visited": true,
+   "level": "under",
+   "note": "A dead end in the mine with a small pile of coal.",
+   "items": [],
+   "open_exits": [],
+   "tags": [
+    "dark"
+   ]
+  },
+  "timber-room": {
+   "name": "Timber Room",
+   "zone": "mine",
+   "pos": [
+    10.8,
+    7.8
+   ],
+   "order": 94,
+   "visited": true,
+   "level": "under",
+   "note": "A long passage cluttered with broken timbers. The narrow crack to the west lets nothing through, not even a lantern.",
+   "items": [],
+   "open_exits": [],
+   "tags": [
+    "dark"
+   ]
+  },
+  "drafty-room": {
+   "name": "Drafty Room",
+   "zone": "mine",
+   "pos": [
+    12.2,
+    7.8
+   ],
+   "order": 95,
+   "visited": true,
+   "level": "under",
+   "note": "A small drafty room at the bottom of the shaft where the basket lands. A passage leads south.",
+   "items": [],
+   "open_exits": [],
+   "tags": [
+    "dark"
+   ]
+  },
+  "machine-room": {
+   "name": "Machine Room",
+   "zone": "mine",
+   "pos": [
+    12.2,
+    8.9
+   ],
+   "order": 96,
+   "visited": true,
+   "level": "under",
+   "note": "A cold room with a dryer-like machine, a lid and a tiny switch. Coal in, lid closed, switch turned with a screwdriver, and out comes a diamond.",
+   "items": [
+    {
+     "name": "coal-to-diamond machine",
+     "type": "puzzle",
+     "note": "used once, the coal became the diamond"
+    }
+   ],
+   "open_exits": [],
+   "tags": [
+    "dark"
+   ]
+  }
+ },
+ "edges": [
+  {
+   "from": "west-of-house",
+   "to": "south-of-house",
+   "dir": "S",
+   "kind": "walk",
+   "order": 2
+  },
+  {
+   "from": "south-of-house",
+   "to": "behind-house",
+   "dir": "E",
+   "kind": "walk",
+   "order": 3
+  },
+  {
+   "from": "behind-house",
+   "to": "kitchen",
+   "dir": "W",
+   "back": "E",
+   "kind": "window",
+   "order": 4,
+   "note": "through the kitchen window"
+  },
+  {
+   "from": "kitchen",
+   "to": "attic",
+   "dir": "U",
+   "back": "D",
+   "kind": "walk",
+   "order": 5
+  },
+  {
+   "from": "kitchen",
+   "to": "living-room",
+   "dir": "W",
+   "back": "E",
+   "kind": "walk",
+   "order": 6
+  },
+  {
+   "from": "living-room",
+   "to": "west-of-house",
+   "dir": "W",
+   "kind": "locked",
+   "order": 6,
+   "assumed": true,
+   "note": "nailed-shut door; presumed to open onto West of House"
+  },
+  {
+   "from": "living-room",
+   "to": "cellar",
+   "dir": "D",
+   "kind": "oneway",
+   "order": 7,
+   "note": "trap door under the rug; it slams shut and is barred behind you"
+  },
+  {
+   "from": "cellar",
+   "to": "east-of-chasm",
+   "dir": "S",
+   "back": "N",
+   "kind": "walk",
+   "order": 8
+  },
+  {
+   "from": "east-of-chasm",
+   "to": "gallery",
+   "dir": "E",
+   "back": "W",
+   "kind": "walk",
+   "order": 9
+  },
+  {
+   "from": "cellar",
+   "to": "troll-room",
+   "dir": "N",
+   "back": "S",
+   "kind": "walk",
+   "order": 10
+  },
+  {
+   "from": "troll-room",
+   "to": "east-west-passage",
+   "dir": "E",
+   "back": "W",
+   "kind": "walk",
+   "order": 11
+  },
+  {
+   "from": "east-west-passage",
+   "to": "round-room",
+   "dir": "E",
+   "back": "W",
+   "kind": "walk",
+   "order": 12
+  },
+  {
+   "from": "round-room",
+   "to": "loud-room",
+   "dir": "E",
+   "back": "W",
+   "kind": "walk",
+   "order": 13
+  },
+  {
+   "from": "loud-room",
+   "to": "damp-cave",
+   "dir": "E",
+   "back": "W",
+   "kind": "walk",
+   "order": 14
+  },
+  {
+   "from": "loud-room",
+   "to": "deep-canyon",
+   "dir": "U",
+   "back": "D",
+   "kind": "walk",
+   "order": 15
+  },
+  {
+   "from": "deep-canyon",
+   "to": "dam",
+   "dir": "E",
+   "back": "S",
+   "kind": "walk",
+   "order": 16
+  },
+  {
+   "from": "dam",
+   "to": "dam-lobby",
+   "dir": "N",
+   "back": "S",
+   "kind": "walk",
+   "order": 17
+  },
+  {
+   "from": "dam-lobby",
+   "to": "maintenance-room",
+   "dir": "N",
+   "back": "S",
+   "kind": "door",
+   "order": 18
+  },
+  {
+   "from": "dam",
+   "to": "dam-base",
+   "dir": "D",
+   "back": "U",
+   "kind": "walk",
+   "order": 19
+  },
+  {
+   "from": "dam",
+   "to": "reservoir-south",
+   "dir": "W",
+   "kind": "walk",
+   "order": 20
+  },
+  {
+   "from": "reservoir-south",
+   "to": "reservoir",
+   "dir": "N",
+   "kind": "walk",
+   "order": 21
+  },
+  {
+   "from": "reservoir",
+   "to": "reservoir-north",
+   "dir": "N",
+   "kind": "walk",
+   "order": 22
+  },
+  {
+   "from": "reservoir-north",
+   "to": "atlantis-room",
+   "dir": "N",
+   "back": "S",
+   "kind": "walk",
+   "order": 23,
+   "note": "slimy stairway"
+  },
+  {
+   "from": "atlantis-room",
+   "to": "cave",
+   "dir": "U",
+   "back": "D",
+   "kind": "walk",
+   "order": 24
+  },
+  {
+   "from": "cave",
+   "to": "mirror-room",
+   "dir": "N",
+   "kind": "walk",
+   "order": 25
+  },
+  {
+   "from": "mirror-room",
+   "to": "cave",
+   "dir": "E",
+   "kind": "walk",
+   "order": 25
+  },
+  {
+   "from": "mirror-room",
+   "to": "twisting-passage",
+   "dir": "W",
+   "kind": "walk",
+   "order": 26
+  },
+  {
+   "from": "twisting-passage",
+   "to": "mirror-room",
+   "dir": "N",
+   "kind": "walk",
+   "order": 26
+  },
+  {
+   "from": "mirror-room",
+   "to": "cold-passage",
+   "dir": "N",
+   "kind": "walk",
+   "order": 27
+  },
+  {
+   "from": "cold-passage",
+   "to": "slide-room",
+   "dir": "W",
+   "back": "E",
+   "kind": "walk",
+   "order": 28
+  },
+  {
+   "from": "slide-room",
+   "to": "cellar",
+   "dir": "D",
+   "kind": "oneway",
+   "order": 28,
+   "note": "steep metal slide, one way down into the Cellar"
+  },
+  {
+   "from": "gallery",
+   "to": "studio",
+   "dir": "N",
+   "back": "S",
+   "kind": "walk",
+   "order": 29
+  },
+  {
+   "from": "studio",
+   "to": "kitchen",
+   "dir": "U",
+   "kind": "oneway",
+   "order": 29,
+   "note": "chimney; it is too narrow for a full pack and the game says coming back down is unlikely"
+  },
+  {
+   "from": "behind-house",
+   "to": "clearing",
+   "dir": "E",
+   "back": "W",
+   "kind": "walk",
+   "order": 30
+  },
+  {
+   "from": "clearing",
+   "to": "canyon-view",
+   "dir": "E",
+   "back": "NW",
+   "kind": "walk",
+   "order": 31
+  },
+  {
+   "from": "canyon-view",
+   "to": "rocky-ledge",
+   "dir": "D",
+   "back": "U",
+   "kind": "walk",
+   "order": 32
+  },
+  {
+   "from": "rocky-ledge",
+   "to": "canyon-bottom",
+   "dir": "D",
+   "back": "U",
+   "kind": "walk",
+   "order": 33
+  },
+  {
+   "from": "canyon-bottom",
+   "to": "end-of-rainbow",
+   "dir": "N",
+   "back": "SW",
+   "kind": "walk",
+   "order": 34
+  },
+  {
+   "from": "north-of-house",
+   "to": "behind-house",
+   "dir": "E",
+   "kind": "walk",
+   "order": 35
+  },
+  {
+   "from": "north-of-house",
+   "to": "forest-path",
+   "dir": "N",
+   "back": "S",
+   "kind": "walk",
+   "order": 36
+  },
+  {
+   "from": "forest-path",
+   "to": "up-a-tree",
+   "dir": "U",
+   "back": "D",
+   "kind": "walk",
+   "order": 37
+  },
+  {
+   "from": "troll-room",
+   "to": "maze-1",
+   "dir": "W",
+   "kind": "walk",
+   "order": 38
+  },
+  {
+   "from": "maze-1",
+   "to": "maze-2",
+   "dir": "S",
+   "kind": "walk",
+   "order": 39
+  },
+  {
+   "from": "maze-2",
+   "to": "maze-3",
+   "dir": "E",
+   "kind": "walk",
+   "order": 40
+  },
+  {
+   "from": "maze-3",
+   "to": "maze-4",
+   "dir": "U",
+   "kind": "walk",
+   "order": 41
+  },
+  {
+   "from": "maze-4",
+   "to": "maze-5",
+   "dir": "SW",
+   "kind": "walk",
+   "order": 42
+  },
+  {
+   "from": "maze-5",
+   "to": "maze-6",
+   "dir": "E",
+   "kind": "walk",
+   "order": 43
+  },
+  {
+   "from": "maze-6",
+   "to": "maze-7",
+   "dir": "S",
+   "kind": "walk",
+   "order": 44
+  },
+  {
+   "from": "maze-7",
+   "to": "cyclops-room",
+   "dir": "SE",
+   "kind": "walk",
+   "order": 45
+  },
+  {
+   "from": "cyclops-room",
+   "to": "treasure-room",
+   "dir": "U",
+   "kind": "walk",
+   "order": 46
+  },
+  {
+   "from": "cyclops-room",
+   "to": "strange-passage",
+   "dir": "E",
+   "kind": "walk",
+   "order": 47,
+   "note": "through the hole the cyclops made"
+  },
+  {
+   "from": "strange-passage",
+   "to": "living-room",
+   "dir": "E",
+   "kind": "walk",
+   "order": 47,
+   "note": "old wooden door, cyclops-sized opening"
+  },
+  {
+   "from": "round-room",
+   "to": "engravings-cave",
+   "dir": "SE",
+   "kind": "walk",
+   "order": 58,
+   "back": "NW"
+  },
+  {
+   "from": "engravings-cave",
+   "to": "dome-room",
+   "dir": "E",
+   "kind": "walk",
+   "order": 59
+  },
+  {
+   "from": "dome-room",
+   "to": "torch-room",
+   "dir": "D",
+   "kind": "oneway",
+   "order": 60,
+   "note": "down the tied rope; the torch room cannot be climbed out of"
+  },
+  {
+   "from": "torch-room",
+   "to": "temple",
+   "dir": "D",
+   "kind": "walk",
+   "order": 61
+  },
+  {
+   "from": "temple",
+   "to": "altar",
+   "dir": "S",
+   "kind": "walk",
+   "order": 62,
+   "back": "N"
+  },
+  {
+   "from": "temple",
+   "to": "egyptian-room",
+   "dir": "D",
+   "kind": "walk",
+   "order": 63,
+   "back": "W"
+  },
+  {
+   "from": "altar",
+   "to": "cave-b",
+   "dir": "D",
+   "kind": "oneway",
+   "order": 64,
+   "note": "the hole beside the altar; you probably cannot climb back"
+  },
+  {
+   "from": "cave-b",
+   "to": "entrance-to-hades",
+   "dir": "D",
+   "kind": "walk",
+   "order": 65,
+   "back": "U"
+  },
+  {
+   "from": "entrance-to-hades",
+   "to": "land-of-the-dead",
+   "dir": "S",
+   "kind": "walk",
+   "order": 66,
+   "back": "N"
+  },
+  {
+   "from": "cave-b",
+   "to": "mirror-room-2",
+   "dir": "N",
+   "kind": "walk",
+   "order": 67
+  },
+  {
+   "from": "mirror-room-2",
+   "to": "narrow-passage",
+   "dir": "N",
+   "kind": "walk",
+   "order": 68
+  },
+  {
+   "from": "narrow-passage",
+   "to": "round-room",
+   "dir": "N",
+   "kind": "walk",
+   "order": 12
+  },
+  {
+   "from": "forest-path",
+   "to": "clearing-grating",
+   "dir": "N",
+   "kind": "walk",
+   "order": 70,
+   "back": "S"
+  },
+  {
+   "from": "forest-1",
+   "to": "forest-path",
+   "dir": "E",
+   "kind": "walk",
+   "order": 36,
+   "back": "W"
+  },
+  {
+   "from": "on-the-rainbow",
+   "to": "end-of-rainbow",
+   "dir": "W",
+   "kind": "walk",
+   "order": 34,
+   "back": "E"
+  },
+  {
+   "from": "aragain-falls",
+   "to": "on-the-rainbow",
+   "dir": "W",
+   "kind": "walk",
+   "order": 80,
+   "back": "E"
+  },
+  {
+   "from": "shore",
+   "to": "aragain-falls",
+   "dir": "S",
+   "kind": "walk",
+   "order": 79,
+   "back": "N"
+  },
+  {
+   "from": "river-5",
+   "to": "shore",
+   "dir": "E",
+   "kind": "boat",
+   "order": 76,
+   "note": "not yet landed here",
+   "assumed": true
+  },
+  {
+   "from": "shore",
+   "to": "sandy-beach",
+   "dir": "N",
+   "kind": "walk",
+   "order": 77,
+   "back": "S"
+  },
+  {
+   "from": "sandy-beach",
+   "to": "sandy-cave",
+   "dir": "NE",
+   "kind": "walk",
+   "order": 78,
+   "back": "SW"
+  },
+  {
+   "from": "river-4",
+   "to": "sandy-beach",
+   "dir": "E",
+   "kind": "boat",
+   "order": 77
+  },
+  {
+   "from": "dam-base",
+   "to": "river-1",
+   "dir": "E",
+   "kind": "boat",
+   "order": 71,
+   "note": "inflate the plastic with the pump, get in, then launch"
+  },
+  {
+   "from": "river-1",
+   "to": "river-2",
+   "dir": "S",
+   "kind": "boat",
+   "order": 72,
+   "note": "the current carries the boat, so just wait"
+  },
+  {
+   "from": "river-2",
+   "to": "river-3",
+   "dir": "S",
+   "kind": "boat",
+   "order": 73
+  },
+  {
+   "from": "river-3",
+   "to": "river-4",
+   "dir": "S",
+   "kind": "boat",
+   "order": 74
+  },
+  {
+   "from": "river-4",
+   "to": "river-5",
+   "dir": "S",
+   "kind": "boat",
+   "order": 75
+  },
+  {
+   "from": "slide-room",
+   "to": "mine-entrance",
+   "dir": "N",
+   "kind": "walk",
+   "order": 81
+  },
+  {
+   "from": "mine-entrance",
+   "to": "squeaky-room",
+   "dir": "W",
+   "kind": "walk",
+   "order": 82,
+   "back": "E"
+  },
+  {
+   "from": "squeaky-room",
+   "to": "bat-room",
+   "dir": "N",
+   "kind": "walk",
+   "order": 83
+  },
+  {
+   "from": "bat-room",
+   "to": "shaft-room",
+   "dir": "E",
+   "kind": "walk",
+   "order": 84,
+   "back": "W"
+  },
+  {
+   "from": "shaft-room",
+   "to": "smelly-room",
+   "dir": "N",
+   "kind": "walk",
+   "order": 85,
+   "back": "S"
+  },
+  {
+   "from": "smelly-room",
+   "to": "gas-room",
+   "dir": "D",
+   "kind": "walk",
+   "order": 86,
+   "back": "U"
+  },
+  {
+   "from": "gas-room",
+   "to": "coal-mine-1",
+   "dir": "E",
+   "kind": "walk",
+   "order": 87
+  },
+  {
+   "from": "coal-mine-1",
+   "to": "coal-mine-2",
+   "dir": "NE",
+   "kind": "walk",
+   "order": 88
+  },
+  {
+   "from": "coal-mine-2",
+   "to": "coal-mine-3",
+   "dir": "SE",
+   "kind": "walk",
+   "order": 89
+  },
+  {
+   "from": "coal-mine-3",
+   "to": "coal-mine-4",
+   "dir": "SW",
+   "kind": "walk",
+   "order": 90
+  },
+  {
+   "from": "coal-mine-4",
+   "to": "ladder-top",
+   "dir": "D",
+   "kind": "walk",
+   "order": 91,
+   "back": "U"
+  },
+  {
+   "from": "ladder-top",
+   "to": "ladder-bottom",
+   "dir": "D",
+   "kind": "walk",
+   "order": 92,
+   "back": "U"
+  },
+  {
+   "from": "ladder-bottom",
+   "to": "dead-end",
+   "dir": "S",
+   "kind": "walk",
+   "order": 93,
+   "back": "N"
+  },
+  {
+   "from": "ladder-bottom",
+   "to": "timber-room",
+   "dir": "W",
+   "kind": "walk",
+   "order": 94,
+   "back": "E"
+  },
+  {
+   "from": "timber-room",
+   "to": "drafty-room",
+   "dir": "W",
+   "kind": "walk",
+   "order": 95,
+   "back": "E"
+  },
+  {
+   "from": "drafty-room",
+   "to": "machine-room",
+   "dir": "S",
+   "kind": "walk",
+   "order": 96,
+   "back": "N"
+  }
+ ],
+ "path": [
+  "west-of-house",
+  "south-of-house",
+  "behind-house",
+  "kitchen",
+  "attic",
+  "kitchen",
+  "living-room",
+  "kitchen",
+  "attic",
+  "kitchen",
+  "living-room",
+  "cellar",
+  "east-of-chasm",
+  "gallery",
+  "east-of-chasm",
+  "cellar",
+  "troll-room",
+  "east-west-passage",
+  "round-room",
+  "loud-room",
+  "damp-cave",
+  "loud-room",
+  "deep-canyon",
+  "dam",
+  "dam-lobby",
+  "maintenance-room",
+  "dam-lobby",
+  "dam",
+  "dam-base",
+  "dam",
+  "deep-canyon",
+  "dam",
+  "reservoir-south",
+  "reservoir",
+  "reservoir-north",
+  "atlantis-room",
+  "cave",
+  "mirror-room",
+  "cave",
+  "mirror-room",
+  "twisting-passage",
+  "mirror-room",
+  "cold-passage",
+  "slide-room",
+  "cellar",
+  "east-of-chasm",
+  "gallery",
+  "studio",
+  "kitchen",
+  "behind-house",
+  "clearing",
+  "canyon-view",
+  "rocky-ledge",
+  "canyon-bottom",
+  "end-of-rainbow",
+  "north-of-house",
+  "behind-house",
+  "north-of-house",
+  "forest-path",
+  "up-a-tree",
+  "forest-path",
+  "north-of-house",
+  "behind-house",
+  "kitchen",
+  "living-room",
+  "cellar",
+  "east-of-chasm",
+  "gallery",
+  "studio",
+  "gallery",
+  "east-of-chasm",
+  "cellar",
+  "troll-room",
+  "east-west-passage",
+  "round-room",
+  "loud-room",
+  "round-room",
+  "east-west-passage",
+  "troll-room",
+  "maze-1",
+  "maze-2",
+  "maze-3",
+  "maze-4",
+  "maze-5",
+  "maze-6",
+  "maze-7",
+  "cyclops-room",
+  "treasure-room",
+  "cyclops-room",
+  "strange-passage",
+  "living-room",
+  "strange-passage",
+  "cyclops-room",
+  "treasure-room",
+  "cyclops-room",
+  "strange-passage",
+  "living-room"
+ ],
+ "events": [
+  {
+   "step": 1,
+   "type": "note",
+   "room": "west-of-house",
+   "text": "Started a new game. The site first deleted an older Zork save on this account, so this is a clean run."
+  },
+  {
+   "step": 2,
+   "type": "discovery",
+   "room": "west-of-house",
+   "text": "Opened the mailbox and took the leaflet."
+  },
+  {
+   "step": 3,
+   "type": "discovery",
+   "room": "behind-house",
+   "text": "Walked round the house and pushed the kitchen window open."
+  },
+  {
+   "step": 4,
+   "type": "danger",
+   "room": "behind-house",
+   "text": "A longer batch of commands crashed the interpreter. The server restored the last save and nothing was lost."
+  },
+  {
+   "step": 5,
+   "type": "discovery",
+   "room": "kitchen",
+   "text": "Took the sack and the bottle of water from the kitchen table."
+  },
+  {
+   "step": 6,
+   "type": "danger",
+   "room": "attic",
+   "text": "The attic is pitch black. Left it untouched and went to find a light."
+  },
+  {
+   "step": 7,
+   "type": "discovery",
+   "room": "living-room",
+   "text": "Took the lantern and the sword, and switched the lantern on."
+  },
+  {
+   "step": 8,
+   "type": "discovery",
+   "room": "attic",
+   "text": "Went back up with the light and took the rope and the knife."
+  },
+  {
+   "step": 9,
+   "type": "discovery",
+   "room": "living-room",
+   "text": "Moved the rug, opened the trap door under it and went down. The door slammed shut and was barred behind me."
+  },
+  {
+   "step": 10,
+   "type": "danger",
+   "room": "cellar",
+   "text": "The sword glows blue in the cellar. That warns of something hostile one room away, most likely to the north."
+  },
+  {
+   "step": 11,
+   "type": "discovery",
+   "room": "gallery",
+   "text": "Crossed the chasm edge to an art gallery. Its big painting is a treasure, but the pack is too heavy to lift it."
+  },
+  {
+   "step": 12,
+   "type": "puzzle",
+   "room": "troll-room",
+   "text": "Went north into the Troll Room. The sword blazed bright, one thrust stunned the troll and the next one killed it. The way east and west is open."
+  },
+  {
+   "step": 13,
+   "type": "discovery",
+   "room": "east-west-passage",
+   "text": "Followed the passage east past the troll's room. A narrow stairway leads down at the north end."
+  },
+  {
+   "step": 14,
+   "type": "discovery",
+   "room": "round-room",
+   "text": "Reached a round hub room. Most of its exits are caved in."
+  },
+  {
+   "step": 15,
+   "type": "puzzle",
+   "room": "loud-room",
+   "text": "The Loud Room swallowed my commands. Saying echo quieted it."
+  },
+  {
+   "step": 16,
+   "type": "score",
+   "room": "loud-room",
+   "text": "Left the knife and the water bottle here to lose weight, then lifted the platinum bar. Score was 35 of 350 in 35 moves before this."
+  },
+  {
+   "step": 17,
+   "type": "discovery",
+   "room": "damp-cave",
+   "text": "Peeked east into a damp cave with a crack leading south, then came back."
+  },
+  {
+   "step": 18,
+   "type": "discovery",
+   "room": "deep-canyon",
+   "text": "Climbed the stairway up from the Loud Room to a deep canyon. Water is roaring somewhere below."
+  },
+  {
+   "step": 19,
+   "type": "discovery",
+   "room": "dam",
+   "text": "Walked east to the top of Flood Control Dam #3. The gates are shut and a big bolt sits on the control panel."
+  },
+  {
+   "step": 20,
+   "type": "discovery",
+   "room": "dam-lobby",
+   "text": "Went north into the dam lobby and took the matchbook from the desk."
+  },
+  {
+   "step": 21,
+   "type": "discovery",
+   "room": "maintenance-room",
+   "text": "Through the Private door to the maintenance room. A wrench and screwdriver are here, but the pack is too heavy to lift them."
+  },
+  {
+   "step": 22,
+   "type": "puzzle",
+   "room": "dam",
+   "text": "Pressed the yellow button in the maintenance room, then turned the dam bolt with the wrench. The gates opened and the reservoir began to drain."
+  },
+  {
+   "step": 23,
+   "type": "discovery",
+   "room": "dam-base",
+   "text": "Climbed down to the foot of the dam. The river Frigid starts here, and a folded plastic pile with a valve lies on the shore."
+  },
+  {
+   "step": 24,
+   "type": "discovery",
+   "room": "reservoir-south",
+   "text": "The dam's west path leads to the south shore of the draining lake. Four other paths branch off."
+  },
+  {
+   "step": 25,
+   "type": "discovery",
+   "room": "reservoir",
+   "text": "Waited a few turns, then walked across the mud bed. A trunk of jewels lay half buried."
+  },
+  {
+   "step": 26,
+   "type": "danger",
+   "room": "reservoir",
+   "text": "The thief walked in while I was swapping gear. He took the trunk and my sword, and left with his bag."
+  },
+  {
+   "step": 27,
+   "type": "score",
+   "room": "reservoir",
+   "text": "Score is 65 of 350 after 87 moves, rank Novice Adventurer."
+  },
+  {
+   "step": 28,
+   "type": "discovery",
+   "room": "reservoir-north",
+   "text": "Crossed the mud bed north to a big cavern and took the hand-held air pump from the floor."
+  },
+  {
+   "step": 29,
+   "type": "score",
+   "room": "atlantis-room",
+   "text": "A slimy stairway leads north to the Atlantis Room, where Poseidon's crystal trident lay on the shore. Took it."
+  },
+  {
+   "step": 30,
+   "type": "discovery",
+   "room": "cave",
+   "text": "Up the staircase is a tiny cave with entrances west and north."
+  },
+  {
+   "step": 31,
+   "type": "discovery",
+   "room": "mirror-room",
+   "text": "North of the cave is a big square room with a mirror covering the south wall."
+  },
+  {
+   "step": 32,
+   "type": "discovery",
+   "room": "twisting-passage",
+   "text": "The mirror room's west exit is a winding passage whose north exit loops back to the mirror room."
+  },
+  {
+   "step": 33,
+   "type": "discovery",
+   "room": "cold-passage",
+   "text": "North of the mirror room a cold corridor turns to the west."
+  },
+  {
+   "step": 34,
+   "type": "discovery",
+   "room": "slide-room",
+   "text": "The corridor ends at an old mine chamber with a steep metal slide going down and a small opening north."
+  },
+  {
+   "step": 35,
+   "type": "note",
+   "room": "slide-room",
+   "text": "Several multi-move batches came back cut short in this stretch, so I switched to one or two moves per message to keep the map honest."
+  },
+  {
+   "step": 36,
+   "type": "discovery",
+   "room": "cellar",
+   "text": "The slide dropped me into the Cellar, which confirms the northern loop rejoins the main route."
+  },
+  {
+   "step": 37,
+   "type": "discovery",
+   "room": "studio",
+   "text": "Cellar, chasm edge, gallery, then north into a paint-splattered studio with a chimney up."
+  },
+  {
+   "step": 38,
+   "type": "danger",
+   "room": "studio",
+   "text": "The chimney refused a full pack, so I dropped the rope, sack and pump. The thief wandered through as I did and took the trident from me."
+  },
+  {
+   "step": 39,
+   "type": "puzzle",
+   "room": "kitchen",
+   "text": "Climbed the chimney into the Kitchen. Score is 69 of 350 after 113 moves."
+  },
+  {
+   "step": 40,
+   "type": "discovery",
+   "room": "clearing",
+   "text": "Out the kitchen window and east along the forest path to a small clearing."
+  },
+  {
+   "step": 41,
+   "type": "discovery",
+   "room": "canyon-view",
+   "text": "The path east ends at the rim of the Great Canyon, with the river, the falls and a rainbow in view."
+  },
+  {
+   "step": 42,
+   "type": "discovery",
+   "room": "rocky-ledge",
+   "text": "Climbed down to a ledge halfway down the canyon wall."
+  },
+  {
+   "step": 43,
+   "type": "discovery",
+   "room": "canyon-bottom",
+   "text": "Down again to the canyon floor. A narrow path leads north."
+  },
+  {
+   "step": 44,
+   "type": "discovery",
+   "room": "end-of-rainbow",
+   "text": "The path ends at a rocky beach below the falls, where a rainbow crosses to the east."
+  },
+  {
+   "step": 45,
+   "type": "discovery",
+   "room": "north-of-house",
+   "text": "Back at the house, went round to the north side and found a narrow path into the trees."
+  },
+  {
+   "step": 46,
+   "type": "discovery",
+   "room": "forest-path",
+   "text": "The path ran into a dim forest with one very large climbable tree."
+  },
+  {
+   "step": 47,
+   "type": "score",
+   "room": "up-a-tree",
+   "text": "Climbed the tree and took the jewel-encrusted egg from the bird's nest, keeping it closed."
+  },
+  {
+   "step": 48,
+   "type": "score",
+   "room": "living-room",
+   "text": "Carried the egg home through the kitchen window and put it in the trophy case. Score is 79 of 350 after 136 moves."
+  },
+  {
+   "step": 49,
+   "type": "discovery",
+   "room": "living-room",
+   "text": "New run to 350. The game save was intact, and the trap door opened again, dropping me back into the cellar."
+  },
+  {
+   "step": 50,
+   "type": "danger",
+   "room": "gallery",
+   "text": "The painting is gone from the gallery, so the thief has it. He now holds the sword, trunk, trident and painting."
+  },
+  {
+   "step": 51,
+   "type": "discovery",
+   "room": "studio",
+   "text": "Recovered the sack, rope and pump from the studio, then the knife and water bottle from the loud room."
+  },
+  {
+   "step": 52,
+   "type": "discovery",
+   "room": "maze-4",
+   "text": "The maze route west, south, east, up reached the skeleton room. Took the bag of coins and the skeleton key and left the rusty knife."
+  },
+  {
+   "step": 53,
+   "type": "discovery",
+   "room": "cyclops-room",
+   "text": "Southwest, east, south, southeast reached the Cyclops Room. Fed the cyclops lunch and water and he fell asleep, which frees the staircase up."
+  },
+  {
+   "step": 54,
+   "type": "danger",
+   "room": "treasure-room",
+   "text": "Went up past the sleeping cyclops into the thief's lair. He attacked at once."
+  },
+  {
+   "step": 55,
+   "type": "puzzle",
+   "room": "treasure-room",
+   "text": "Gave him the bag of coins, which made him stop to admire it. A few knife blows knocked him out and the next one killed him. His whole hoard, plus the chalice, came back into view."
+  },
+  {
+   "step": 56,
+   "type": "puzzle",
+   "room": "cyclops-room",
+   "text": "Woke the sleeping cyclops and said his magic word straight away. He fled and knocked down the east wall, which opened a short road home through the Strange Passage."
+  },
+  {
+   "step": 57,
+   "type": "score",
+   "room": "living-room",
+   "text": "Carried two loads of treasure home and banked the trunk, painting, chalice, trident, platinum bar and coins. Score 165 of 350 after 214 moves."
+  },
+  {
+   "step": 58,
+   "type": "puzzle",
+   "room": "altar",
+   "text": "Learned the temple: the torch room is one-way, the altar hole leads down to Hades, and praying at the altar teleports you to the forest with everything you carry."
+  },
+  {
+   "step": 59,
+   "type": "puzzle",
+   "room": "entrance-to-hades",
+   "text": "The bell, then candles relit with a match, then the book drove the spirits away and opened the way to the crystal skull."
+  },
+  {
+   "step": 60,
+   "type": "discovery",
+   "room": "aragain-falls",
+   "text": "Boat trip: inflate the plastic, launch, drift about eleven turns to the red buoy and sandy beach. The shore path leads to the falls and the rainbow leads home."
+  },
+  {
+   "step": 61,
+   "type": "discovery",
+   "room": "machine-room",
+   "text": "Mapped the whole coal mine: bat and jade, gas room and bracelet, coal at the dead end, and the basket trick that carries coal and screwdriver past the narrow crack to the machine."
+  },
+  {
+   "step": 62,
+   "type": "danger",
+   "room": "egyptian-room",
+   "text": "First game ended at 249 because the thief died before the egg reached him, which ruins the canary. Started a fresh game with the route notes."
+  },
+  {
+   "step": 63,
+   "type": "danger",
+   "room": "treasure-room",
+   "text": "In the new game the thief killed me (deaths: 1). He is hostile now, so I am banking treasure first and will fight him last at higher strength."
+  },
+  {
+   "step": 64,
+   "type": "score",
+   "room": "living-room",
+   "text": "Banked the trunk, then the coffin, skull, sceptre and torch after the exorcism, coffin trip and prayer. Score 173 of 350 after 311 moves."
+  },
+  {
+   "step": 65,
+   "type": "danger",
+   "room": "living-room",
+   "text": "Run 3 (second clean start). The grue got me in run 2 when I walked into the cellar with no light, so that save was at two deaths, and each death costs ten points for good, which puts 350 out of reach. Restarted."
+  },
+  {
+   "step": 66,
+   "type": "score",
+   "room": "troll-room",
+   "text": "Killed the troll with the sword, took the painting and coin bag, and the thief lifted the painting and egg as he wandered through the Troll Room. Cyclops routed with his magic word."
+  },
+  {
+   "step": 67,
+   "type": "score",
+   "room": "living-room",
+   "text": "Loud Room bar, Dam sluice, trunk and Atlantis trident carried home through the maze and banked. Score 114 of 350 in 124 moves with no deaths."
+  },
+  {
+   "step": 68,
+   "type": "score",
+   "room": "living-room",
+   "text": "Rang the bell, relit the candles and read the book at Hades for the skull, then took the coffin and prayed out of the temple. Banked coffin, sceptre, skull and torch. Score 189 of 350 in 196 moves, no deaths."
+  },
+  {
+   "step": 69,
+   "type": "puzzle",
+   "room": "entrance-to-hades",
+   "text": "Learned the temple loop once more: torch room is one way, altar hole to Hades, back north through the second mirror room to the Round Room, then the coffin and the prayer home."
+  },
+  {
+   "step": 70,
+   "type": "discovery",
+   "room": "aragain-falls",
+   "text": "Boated the river to the buoy, opened it for the emerald, dug the scarab out of the sandy cave, and walked home over the solid rainbow."
+  },
+  {
+   "step": 71,
+   "type": "score",
+   "room": "treasure-room",
+   "text": "Killed the thief in his lair with the knife after he had worn me down twice. His loot came back, including the opened egg with its canary. Score 295 of 350 in 468 moves, still no deaths."
+  },
+  {
+   "step": 72,
+   "type": "discovery",
+   "room": "shaft-room",
+   "text": "Coal mine done in one pass: jade in the Bat Room with garlic in hand, bracelet in the Gas Room with only the lantern, coal from the Dead End, the basket down the shaft, and the machine in the Machine Room turned coal into the diamond."
+  },
+  {
+   "step": 73,
+   "type": "score",
+   "room": "living-room",
+   "text": "Banked the diamond, bracelet, jade and torch. The score reads 350 of 350 in 624 moves, Master Adventurer, no deaths, and a parchment map has appeared in the trophy case."
+  }
+ ],
+ "puzzles": [
+  {
+   "name": "Rug and trap door",
+   "status": "solved",
+   "note": "The rug hid a trap door. It leads to the Cellar and is barred from below once you drop through."
+  },
+  {
+   "name": "Nailed door",
+   "status": "open",
+   "note": "Boarded west door in the living room and the boarded front door outside."
+  },
+  {
+   "name": "Heavy pack",
+   "status": "solved",
+   "note": "The Strange Passage lets treasure come home in two loads, so the chimney limit no longer matters."
+  },
+  {
+   "name": "The troll",
+   "status": "solved",
+   "note": "Killed with the sword in two thrusts. The sword glows faint when a hostile is a room away and bright when it is in the same room."
+  },
+  {
+   "name": "Loud Room echo",
+   "status": "solved",
+   "note": "Saying echo makes the room quiet, and normal commands work again."
+  },
+  {
+   "name": "Dam gates",
+   "status": "solved",
+   "note": "Yellow button first, then the bolt with the wrench. The gates open and the lake drains in a handful of turns."
+  },
+  {
+   "name": "Maintenance buttons",
+   "status": "solved",
+   "note": "Yellow was safe and enables the dam bolt. Blue, brown and red are untouched."
+  },
+  {
+   "name": "The thief",
+   "status": "solved",
+   "note": "Dead. Fight strength 5 with the knife took about six exchanges, and I had retreated once before to heal."
+  },
+  {
+   "name": "Folded plastic pile",
+   "status": "open",
+   "note": "At the dam base. It has a valve, and the air pump is now in hand."
+  },
+  {
+   "name": "Mirror",
+   "status": "open",
+   "note": "An enormous mirror fills the south wall of the mirror room. Left alone so far."
+  },
+  {
+   "name": "Chimney load limit",
+   "status": "solved",
+   "note": "Going up from the Studio needs the brass lantern in hand plus at most one other item, and empty hands is refused too."
+  },
+  {
+   "name": "Rainbow",
+   "status": "solved",
+   "note": "Solid. Pot banked."
+  },
+  {
+   "name": "Jeweled egg",
+   "status": "solved",
+   "note": "Opened by the thief. The canary is banked."
+  },
+  {
+   "name": "Cyclops",
+   "status": "solved",
+   "note": "Lunch and water put him to sleep. Then waking him and saying the magic word at once made him flee and knock a hole in the east wall, which opens the Strange Passage home."
+  },
+  {
+   "name": "The maze",
+   "status": "solved",
+   "note": "From the Troll Room go W, S, E, U to the skeleton room, then SW, E, S, SE to the Cyclops Room."
+  },
+  {
+   "name": "Egg and canary",
+   "status": "solved",
+   "note": "The canary is banked. The bauble still needs a wind in the forest."
+  },
+  {
+   "name": "Exorcism",
+   "status": "solved",
+   "note": "Bell, then candles relit with a match, then the book. The skull is free afterwards."
+  },
+  {
+   "name": "River and boat",
+   "status": "solved",
+   "note": "Emerald and scarab are banked."
+  },
+  {
+   "name": "Coal mine and diamond",
+   "status": "solved",
+   "note": "Done and banked. Route notes are in ROUTE.md."
+  },
+  {
+   "name": "Painting and coin bag",
+   "status": "solved",
+   "note": "Both banked."
+  },
+  {
+   "name": "Deaths cost ten points",
+   "status": "solved",
+   "note": "Finished with no deaths, so the full 350 was possible."
+  }
+ ],
+ "next": [
+  "The game reads 350 of 350. I left the save there rather than walking into the barrow, which would end the game.",
+  "If Braden wants the last scene, the parchment map in the trophy case points the way to the stone barrow west of the house."
+ ]
+}

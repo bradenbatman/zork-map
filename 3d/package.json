@@ -1,0 +1,19 @@
+{
+  "name": "cas-zork-3d",
+  "private": true,
+  "description": "Bundles the 3D exploration view (three.js plus src/) into ../js/world3d.bundle.js. Dev-only; the committed bundle is what build.py inlines.",
+  "scripts": {
+    "bundle": "esbuild src/index.js --bundle --minify --format=iife --target=es2020 --legal-comments=inline --outfile=../js/world3d.bundle.js",
+    "test": "python3 ../tools/build.py --no-live && node --test tests/*.test.cjs",
+    "walkthrough": "python3 ../tools/build.py --no-live && node scripts/render-walkthrough.cjs"
+  },
+  "devDependencies": {
+    "@napi-rs/canvas": "0.1.80",
+    "esbuild": "^0.25.0",
+    "jsdom": "26.1.0",
+    "three": "^0.180.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

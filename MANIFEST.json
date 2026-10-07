@@ -1,0 +1,411 @@
+{
+  "description": "Private GitHub review candidate; account resumption notes removed; public release and original-code license pending.",
+  "created": "2026-10-07",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 55,
+      "sha256": "a5ca0f767ea29732c0194e4f215e73528d85b0564110ad091a7e608722a8406d"
+    },
+    {
+      "path": "3d/package-lock.json",
+      "bytes": 39430,
+      "sha256": "db4f6a80607b9965a0b26c69bf8c3880f697bdfb7664d878158538fc7d9ea85d"
+    },
+    {
+      "path": "3d/package.json",
+      "bytes": 723,
+      "sha256": "b67ad3b78a5a461cf7a57aecb166d463d72b4dccfd83d334e630464cec962bc4"
+    },
+    {
+      "path": "3d/rebuild.sh",
+      "bytes": 254,
+      "sha256": "093fab07bb1f4292d3a5779ec19a5d37ea40cbe36c85eb2dc74004c5c957c370"
+    },
+    {
+      "path": "3d/scripts/load-map.cjs",
+      "bytes": 2908,
+      "sha256": "1081cdb574e5f59cd0948c76e81430895c866d9e87d5b14da2a64fa8c2a99d3d"
+    },
+    {
+      "path": "3d/scripts/render-walkthrough.cjs",
+      "bytes": 7618,
+      "sha256": "a9a131bb4abd3a78c9cd7d9359b279bf45b54f9d70cd1b3768b907fcbade13af"
+    },
+    {
+      "path": "3d/src/explorer.js",
+      "bytes": 8542,
+      "sha256": "5e41623af9bbff2aa71906bdd88d38f5f9dfec4d468f935c887948cf19e95e6d"
+    },
+    {
+      "path": "3d/src/house.js",
+      "bytes": 5683,
+      "sha256": "2446ca4660cdb5c4b935f24300130265d0f9cd355ebbc290718db3fd1ca42f18"
+    },
+    {
+      "path": "3d/src/index.js",
+      "bytes": 27429,
+      "sha256": "5adb002fd16d6287989d28faa7c8490efee2e95fb1ff6e086392041d61cbf8ed"
+    },
+    {
+      "path": "3d/src/layout.js",
+      "bytes": 7462,
+      "sha256": "d8156045ae701a34a2861d9330441c34cf4889170e4a56ea680e6363cb1eb927"
+    },
+    {
+      "path": "3d/src/mesher.js",
+      "bytes": 6894,
+      "sha256": "d9cbd4a26691e710857d0ea0e62a5b7809cadbb398ea889c8ef8a84a386fc16a"
+    },
+    {
+      "path": "3d/src/palette.js",
+      "bytes": 3072,
+      "sha256": "04ea7d86656c693c003c6b28a3d55acf3722e85b5e94c3323079500ff5da7412"
+    },
+    {
+      "path": "3d/src/paths.js",
+      "bytes": 1885,
+      "sha256": "a2a00420982ff1c023456c537a17ffcc564468602c9d08000b9b3cc9edc8eb95"
+    },
+    {
+      "path": "3d/src/props.js",
+      "bytes": 26315,
+      "sha256": "a0a2c57400a534c972891067014590b088ec60f6b8eac95f35a6e9d7859789f4"
+    },
+    {
+      "path": "3d/src/scenery.js",
+      "bytes": 8473,
+      "sha256": "606ce5e9070dabb823593c6ce8a91add53b2268d97187fac7192c143389ad13a"
+    },
+    {
+      "path": "3d/src/terrain.js",
+      "bytes": 14269,
+      "sha256": "b4763a6e3e153878cf1da9760edf4d960a05a2a64fec9d23bf8b2cda3d0dff55"
+    },
+    {
+      "path": "3d/src/util.js",
+      "bytes": 1424,
+      "sha256": "b28c29ee8e7db32fa8bc7ffa49743722d01b339799df84fab12b5c12811f233f"
+    },
+    {
+      "path": "3d/tests/controller.test.cjs",
+      "bytes": 4602,
+      "sha256": "d512be338eb35059a91b2444068c2f9324554e62aaf993c4bc2307658d6ed91d"
+    },
+    {
+      "path": "3d/tests/regression.test.cjs",
+      "bytes": 12702,
+      "sha256": "7fa010aa3a4c4bfe75c2d48591a8fede132533a2a54a59cba105b2c3ed6eba82"
+    },
+    {
+      "path": "3d/tests/ui.test.cjs",
+      "bytes": 3410,
+      "sha256": "a31ae1ca69523f972ef2caab85c58cb8a3e9d9fb2695eb2e9cb8ff068de48017"
+    },
+    {
+      "path": "QA.md",
+      "bytes": 5106,
+      "sha256": "c0baccdd35eed8730302042189521211b39584fa86a613b99c7187abfc54626e"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5635,
+      "sha256": "f632d4fedbedc8f845ca7259e4e6f596c579f427e17d874775112177900e9d9a"
+    },
+    {
+      "path": "RELEASE_REVIEW.md",
+      "bytes": 4393,
+      "sha256": "e5f34dc32bbba8bd810df8336a38037c7d2c508caed18e07450860c50115550f"
+    },
+    {
+      "path": "ROUTE.md",
+      "bytes": 5371,
+      "sha256": "ab00c71cad2621bd9520c2f60f18e13025abfd6a0c4a2e196a94b35e0997cbed"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 5274,
+      "sha256": "766ac4b71218a5166bf5299f6171f4f60afc786ec8c9faad20ed77b5b7a9a40c"
+    },
+    {
+      "path": "WALKTHROUGH.md",
+      "bytes": 1802,
+      "sha256": "b0ea55394bd30fd0b1bbcc40f3768f6eb83f20e413a0e5297fcf597614185c6b"
+    },
+    {
+      "path": "art/atlantis-room.txt",
+      "bytes": 315,
+      "sha256": "1d019a851f3b3b46a5fc108018cc262b402c4e4ca43cebe41b0c1549218a3af1"
+    },
+    {
+      "path": "art/attic.txt",
+      "bytes": 296,
+      "sha256": "c3fa0b245f3e58f80d453011d9bc6662ca99ac942dcaddfff23cbbbc83e97f42"
+    },
+    {
+      "path": "art/behind-house.txt",
+      "bytes": 301,
+      "sha256": "b790ecd56c2b02c24c629482fd8ee637fe9683ea48ca5302084b7fee2b3ccb97"
+    },
+    {
+      "path": "art/canyon-bottom.txt",
+      "bytes": 234,
+      "sha256": "95523ee5660b67125f214888d8cb28cf944f89508d16da5556658626bd17bff9"
+    },
+    {
+      "path": "art/canyon-view.txt",
+      "bytes": 280,
+      "sha256": "0451db2a229df5df9b29073d34525670068d0053be7383c773872bf9588358b1"
+    },
+    {
+      "path": "art/cave.txt",
+      "bytes": 147,
+      "sha256": "b5d138ecbc7f80487f85fe323ebdc567fe7f7b445a903f0d5699c40056481840"
+    },
+    {
+      "path": "art/cellar.txt",
+      "bytes": 348,
+      "sha256": "4ca5d9bca39ef4db890417b0ebf026540a0ef3efab73a17004e2d39ea28a32aa"
+    },
+    {
+      "path": "art/clearing.txt",
+      "bytes": 191,
+      "sha256": "a0361093a459a5316218a7354b8245428c0a4a7069294975375e593ef45157ef"
+    },
+    {
+      "path": "art/cold-passage.txt",
+      "bytes": 165,
+      "sha256": "95ee3ed7cf07146b714fc83b6333b15a815f61a353625e446e4a992f3809d0b7"
+    },
+    {
+      "path": "art/dam-base.txt",
+      "bytes": 312,
+      "sha256": "6b3a39e9c97ec61e4f531c4a70fa45fbe49e46eb6c6febef6a354aa0b459c1e6"
+    },
+    {
+      "path": "art/dam-lobby.txt",
+      "bytes": 252,
+      "sha256": "104bbc5b10309e5128201bd04305e45c8dbe7b4947544d93d9fb3266aaafcee2"
+    },
+    {
+      "path": "art/dam.txt",
+      "bytes": 321,
+      "sha256": "77eede4ee70ee251353cee2b8375747e18a92ee60a6ec895fe3b72245fac899d"
+    },
+    {
+      "path": "art/damp-cave.txt",
+      "bytes": 251,
+      "sha256": "bdf209021530b9e77d2b53c3850c489946945c2a105cf9d82f67fe2459ce3694"
+    },
+    {
+      "path": "art/deep-canyon.txt",
+      "bytes": 272,
+      "sha256": "3f1885378486fc8d9e1aad885a2868685c26d4e6ae88ab0208278160ff2d9336"
+    },
+    {
+      "path": "art/east-of-chasm.txt",
+      "bytes": 280,
+      "sha256": "cd168eb4cafe65fe33d07164f72e320405b00da8b35ca8367314d1c6c8d35f8c"
+    },
+    {
+      "path": "art/east-west-passage.txt",
+      "bytes": 321,
+      "sha256": "b92a8dab264d1e1c30d30aa008ec5a21644fc3d520f788d45e8da1bd69b1ce0a"
+    },
+    {
+      "path": "art/end-of-rainbow.txt",
+      "bytes": 242,
+      "sha256": "17ae5e8f8862d6af4af890ca6a5750ff0c9a773687b2cd56fd6db8d6817a220f"
+    },
+    {
+      "path": "art/forest-path.txt",
+      "bytes": 236,
+      "sha256": "c1d55f890bbe09ea8b7055d934625be77de101f47502145d66592a9f153d6c03"
+    },
+    {
+      "path": "art/gallery.txt",
+      "bytes": 316,
+      "sha256": "ed1e97e22da7a773ab984b0a58b3df51f5c33bc3653e2833f6229016bdb57af6"
+    },
+    {
+      "path": "art/kitchen.txt",
+      "bytes": 259,
+      "sha256": "531d5c6db01849edeee3e819725a7e392d50fdfe966e96fec8e2052687725a34"
+    },
+    {
+      "path": "art/living-room.txt",
+      "bytes": 318,
+      "sha256": "512d999e5c06809128395195832abb6b4e28ea4f837408e6a3f40fc26bd9d5e1"
+    },
+    {
+      "path": "art/loud-room.txt",
+      "bytes": 260,
+      "sha256": "1005e5bb0927756ec7d6728023ed0f59706ce4827fea0d53a64be593c829e314"
+    },
+    {
+      "path": "art/maintenance-room.txt",
+      "bytes": 279,
+      "sha256": "fb656e1fc4dbc5757f29a8a175ce0f1f33ae304fa74243248c07cebb932ddebb"
+    },
+    {
+      "path": "art/mirror-room.txt",
+      "bytes": 299,
+      "sha256": "a7ef3ecd927b030ff4de8c335cfac01579bd68c40096f3319d17c2ff3cf58b7b"
+    },
+    {
+      "path": "art/north-of-house.txt",
+      "bytes": 298,
+      "sha256": "610c453f322d73482e39cf34cdb2dad5a37eed2e91777485f4fe5b4c91e9bd51"
+    },
+    {
+      "path": "art/reservoir-north.txt",
+      "bytes": 269,
+      "sha256": "2cc5685e5bbdb2cf2c6472f5c61d0d6a866247a1fbb9e86e6d2edb04676b3ba8"
+    },
+    {
+      "path": "art/reservoir-south.txt",
+      "bytes": 244,
+      "sha256": "4be52fd7f92e3f2a8dce05d7e2fdfc3aa0cbc826c62c3cde6d4008aced937f5a"
+    },
+    {
+      "path": "art/reservoir.txt",
+      "bytes": 276,
+      "sha256": "5622549fabc0ab92b49d9aea645446c7e232a8cc6a8f9414a157eb29a5e514d5"
+    },
+    {
+      "path": "art/rocky-ledge.txt",
+      "bytes": 235,
+      "sha256": "7082081fa340e6a48a0a3dd1946da4f79a84e4cea9de0893d7a326a1ac5bd10e"
+    },
+    {
+      "path": "art/round-room.txt",
+      "bytes": 317,
+      "sha256": "9585c45533dd1efea0c50c8e1eab023ece8b45de5a4fc01379bba824a3fa63c1"
+    },
+    {
+      "path": "art/slide-room.txt",
+      "bytes": 308,
+      "sha256": "80441b67232c3e31626e3e54d4ab49d9fade1e63f524ed2fac505ed9bd660ba8"
+    },
+    {
+      "path": "art/south-of-house.txt",
+      "bytes": 419,
+      "sha256": "1e7e27f7656486a99394a2d948096f8597679f3861311d4408acc4fb8ff8cb3e"
+    },
+    {
+      "path": "art/studio.txt",
+      "bytes": 344,
+      "sha256": "e552b2f28b331f830e365d8492397098a78de66cb16f65f078878db9f8fb7dce"
+    },
+    {
+      "path": "art/troll-room.txt",
+      "bytes": 316,
+      "sha256": "9958bfb0d97f317e4382323f58819cab46cf2c49645a1c8360c1973abc4c05d5"
+    },
+    {
+      "path": "art/twisting-passage.txt",
+      "bytes": 176,
+      "sha256": "a30c4a3f58e78aef54634ae0f94604a5cfaa7bf197cb6a0c6f5e67761356c619"
+    },
+    {
+      "path": "art/up-a-tree.txt",
+      "bytes": 308,
+      "sha256": "3f07c7e6a1e7d4aeb8dee50dda6a54a9a34fc8a2a756f06c22877c9080efd892"
+    },
+    {
+      "path": "art/west-of-house.txt",
+      "bytes": 310,
+      "sha256": "c73da8100dd1c3910d1fc4bec2cf9f7cc2c291f5caf3990ba8207bb625a61ce3"
+    },
+    {
+      "path": "commands.log",
+      "bytes": 27558,
+      "sha256": "e80dddee64e35db65ba2c97e1c9b5c7da9fa59feccc0aad816f7e3208f21d262"
+    },
+    {
+      "path": "js/pixel.js",
+      "bytes": 4488,
+      "sha256": "b0117e3d090535bb75fb09544ba17d1b99367f0b927c656b8cc599b4f92299c1"
+    },
+    {
+      "path": "js/props.js",
+      "bytes": 28017,
+      "sha256": "622226418bbb52c959e5a02866090a9d363a63038b7d408c54445ae0eeabecc9"
+    },
+    {
+      "path": "js/world.js",
+      "bytes": 32835,
+      "sha256": "80c6172e21b8edc0343e2f1bc56ec693cbde51a33e50a775ad09e38928eb3b69"
+    },
+    {
+      "path": "js/world3d.bundle.js",
+      "bytes": 597641,
+      "sha256": "a325b71df68883d8edbf526a3aced7a19c87e445fbed9f5947abe46d294b1671"
+    },
+    {
+      "path": "layout.json",
+      "bytes": 893,
+      "sha256": "937e6d68c72e53ae7eae17bd32d48ec602bf9d7c1dec7039004ef00fc7b1ee5a"
+    },
+    {
+      "path": "media/zork-map-preview.png",
+      "bytes": 390683,
+      "sha256": "cf620e06c0f81b751e1b73fa43037b81aa81ef3d5ac3bbb0226d6a6caca26c6e"
+    },
+    {
+      "path": "media/zork-map-walkthrough-transcript.txt",
+      "bytes": 1530,
+      "sha256": "c5862664c155dba92b2d63c87bb3a5d4f0cf3ce208277fd955b97db3e35097b7"
+    },
+    {
+      "path": "media/zork-map-walkthrough.mp4",
+      "bytes": 1659057,
+      "sha256": "f498ff44c2e30909bc76bbc4f97d7b48437bddbabac0fb9af555e2e43155383b"
+    },
+    {
+      "path": "out/map.html",
+      "bytes": 812946,
+      "sha256": "2920265cd5fd41728421116065d4f05f73c546c40de5d9e55f971f10db95a9b1"
+    },
+    {
+      "path": "state.json",
+      "bytes": 67305,
+      "sha256": "aac1b291540f59c8a5267135db8a15b852bf9d520e683075d7e3e145b978f279"
+    },
+    {
+      "path": "template.html",
+      "bytes": 63321,
+      "sha256": "bcf62036ec2848317a655fd6121a1c43a629e70e8f905e3289d8c1c59079aeeb"
+    },
+    {
+      "path": "tests/__init__.py",
+      "bytes": 78,
+      "sha256": "abc6b89a1ee0e5ec499faed1a6da23e4e14defc08723366bcf2871475ab6f98c"
+    },
+    {
+      "path": "tests/test_tools.py",
+      "bytes": 27562,
+      "sha256": "77c1092f014f7dcf74e65f6f9f13a51d8c4e16d44bcadde91bf05586f96550d4"
+    },
+    {
+      "path": "tools/build.py",
+      "bytes": 6115,
+      "sha256": "b4c74e5a2cd31b897ba0391bc1f928af7047a6dcb39a32eaac81ef0612c8aaf8"
+    },
+    {
+      "path": "tools/route.py",
+      "bytes": 4006,
+      "sha256": "44196ed896dbafa275da48d68d310617b0a5b25a7a5bc9f494a2d552db8eadc6"
+    },
+    {
+      "path": "tools/stlib.py",
+      "bytes": 2908,
+      "sha256": "dbceecbbd57ab98b198b560484718c6ea1470ab0702fec035b0116da6fa4b44c"
+    },
+    {
+      "path": "tools/validate.py",
+      "bytes": 5815,
+      "sha256": "e61f62a3ce24a0c662687ae6104eab5fdb8701cd6b91c2fecd60c7cbec4b738b"
+    }
+  ]
+}

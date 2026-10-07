@@ -1,0 +1,9 @@
+            ____[ barred ]____
+           |   trap door up   |
+      ___  '------------------'     ^
+     /  /|                          | passage
+    /  / |     dark and damp        | north
+   /__/  |                          |
+   ramp  |__________________   _____|
+  steep, unclimbable         \ /
+                              v  crawlway south

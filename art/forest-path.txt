@@ -1,0 +1,7 @@
+      /\      /\        ,~~~~,
+     /  \    /  \      / branch\
+    /_/\_\  /_/\_\    /  low    \
+      ||      ||     |   TREE    |
+   ^ north . . . . . |___||_____|
+   the path winds north to south
+   one large tree with low branches
