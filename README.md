@@ -9,16 +9,18 @@ The expedition stopped in the Living Room before the barrow ending. This is a
 map and recorded playthrough, not a playable game or interpreter. Map controls
 do not access or change the original game save.
 
-**Status:** private review candidate, October 7, 2026. Automated tests and
+**Status:** public release, October 7, 2026. Automated tests and
 builds pass. Braden confirmed that 3D works in his browser; this is a user
 smoke-check, not a complete cross-browser UI audit. See [QA.md](QA.md).
-Public release and the original-code license remain undecided.
+The original-code license remains undecided.
 
 ## Open the map
 
-The review repository and archive include [`out/map.html`](out/map.html). Open it in a modern browser. It is
-one self-contained file: no server, account, game installation, or network
-connection is needed. The 3D view requires WebGL; World, ASCII and Chart remain
+Open the [live map](https://bradenbatman.github.io/zork-map/) in a modern browser.
+No account or game installation is needed.
+
+For offline use, download [`out/map.html`](out/map.html) and open it in your browser.
+It is one self-contained file: no server or network connection is needed. The 3D view requires WebGL; World, ASCII and Chart remain
 available when WebGL cannot start. System fonts are used without remote font
 requests.
 
@@ -108,6 +110,8 @@ not a browser screen recording and does not demonstrate the WebGL view.
 - `art/`: 37 room ASCII illustrations
 - `template.html`, `js/`: page and pixel-map source, plus the committed 3D bundle
 - `3d/src/`: editable Three.js scene and movement code
+- `docs/index.html`: identical standalone map published by GitHub Pages from `main` / `/docs`
+- `docs/.nojekyll`: serve the static map without Jekyll processing
 - `tools/`: portable build, validation, route and checkpoint utilities
 - `tests/`, `3d/tests/`: regression suites
 - `commands.log`: original command history, without raw game replies
@@ -126,8 +130,9 @@ application, account access, commercial assets, a game binary, or an interpreter
 
 Third-party notices are in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) and
 embedded in the standalone HTML. No license has been selected for the original
-application code or artwork. See [RELEASE_REVIEW.md](RELEASE_REVIEW.md) before
-public release. This private review candidate retains historical personal/CAS attribution and command history.
+application code or artwork. [RELEASE_REVIEW.md](RELEASE_REVIEW.md) records the
+pre-publication review. This repository retains historical personal/CAS attribution
+and command history.
 Account-specific resumption instructions have been removed from both source
-and generated HTML. Public publication and an original-code license remain
-pending owner approval.
+and generated HTML. The owner approved public publication of this repository
+and map website. An original-code license remains pending owner approval.
